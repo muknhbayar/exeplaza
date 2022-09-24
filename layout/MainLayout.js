@@ -1,4 +1,3 @@
-import react from "react";
 import Aboutexe from "../components/Aboutexe";
 import Announcements from "../components/Announcements";
 import Domesticprojects from "../components/Domesticprojects";
@@ -10,28 +9,15 @@ import Recruitment from "../components/Recruitment";
 import Sharedhouse from "../components/Sharedhouse";
 import Slider from "../components/Slider";
 
-//Layout-ийг дуудаж байгаа хэсэг
-import MainLayout from "../layout/MainLayout";
 
-
-
-
-export default function Home() {
+const MainLayout = ({children}) => {
   return (
-    <MainLayout>
-    <Slider/>
-    <Aboutexe/>
-    <Recruitment/>
-    <Overseasprojects/>
-    <Projects/>
-    <Domesticprojects/>
-    <Sharedhouse/>
-    <Announcements/>
-    
-
-
-    </MainLayout>
-  
-
-  );
+    <>
+    <Navbar/>
+    {children}
+    <Footer/>
+    </>
+  )
 }
+
+export default MainLayout
