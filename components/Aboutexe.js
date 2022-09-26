@@ -12,7 +12,7 @@ const Aboutexe = () => {
           <p className="font-light mt-4 font-sans text-gray-800 max-w-lg m-4 md:mr-16">
             EXE Corporation was born on August 6th, 1991. Twenty years have
             passed since then, and as we were experiencing the turbulent last 10
-            years of the 20th century and the first 10 years of the 21st
+            years of the 20th century and the first 11 years of the 21st
             century, we have been constantly moving forward as a boutique
             investment house adapting to the change of air and the trend of the
             times.
