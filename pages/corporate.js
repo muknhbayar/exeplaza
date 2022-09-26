@@ -1,12 +1,20 @@
 import React from "react";
-//Layout-ийг дуудаж байгаа хэсэг
 import MainLayout from "../layout/MainLayout";
-
+import LazyLoad from 'react-lazy-load';
 
 const corporate = () => {
   return (
     <MainLayout>
-      <div className="flex flex-col mx-auto max-w-6xl">
+            <div className="top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden text-center relative overflow-hidden bg-no-repeat bg-cover" style={{backgroundImage: 'url("/assets/img/mv-sm.jpg")' , backgroundColor: 'rgba(0, 0, 0, 0)',  height: 450}}>                  
+                      <div className="flex justify-center items-center h-full">
+                        <div>
+                            <h2 className="font-bold text-4xl font-sans text-white uppercase">Corporate Profile</h2>                            
+                        </div>
+                      </div>      
+              </div>
+
+
+      <div className="flex flex-col mx-auto max-w-6xl py-16">
       <div className="overflow-x-auto sm:-mx-6 lg:-mx-8">
         <div className="py-4 inline-block min-w-full sm:px-6 lg:px-8">
           <div className="overflow-hidden"></div>

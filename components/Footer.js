@@ -1,8 +1,11 @@
 import React from "react";
+import Link from "next/link";
 
 const Footer = () => {
   return (
     <div>
+      <div className="flex flex-grow justify-end bg-pink-500 w-16 h-48 mr-0 sticky top-0"  > fixed </div>
+
       <div className="grid gap-2 grid-cols md:grid-cols-3 bg-neutral-800 w-full p-12">
         <div className="max-w-lg pl-4 mt-4 md:p-4 md:ml-4">
           <h2 className="text-white text-md">CONTACT</h2>
@@ -19,17 +22,47 @@ const Footer = () => {
         <div className="max-w-lg pl-4 mt-4 md:p-4 md:ml-4">
           <h2 className="text-white text-md ">About EXE</h2>
           <ul className="text-gray-300 font-light pl-6 list-none">
-            <li> <a href="/greetings" className="hover:text-sky-300"> Message from the CEO </a> </li>
-            <li> <a href="/corporate" className="hover:text-sky-300"> Corporate Profile </a> </li>
+            <li className="nav-item">
+              <Link href="/greetings">
+                <a className="px-2 py-2 flex items-center text-md text-white hover:text-sky-300">
+                  <span className="ml-2">Message from the CEO</span>
+                </a>
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link href="/corporate">
+                <a className="px-2 py-2 flex items-center text-md text-white hover:text-sky-300">
+                  <span className="ml-2">Corporate Profile</span>
+                </a>
+              </Link>
+            </li>
           </ul>
         </div>
 
         <div className="max-w-lg pl-4 pb-4 mt-4 md:p-4 md:ml-4">
           <h2 className="text-white text-md ">Projects</h2>
           <ul className="text-gray-300 font-light pl-6 list-none">
-            <li> <a href="/domestic" className="hover:text-sky-300"> Domestic Projects </a> </li>
-            <li> <a href="/myanmar" className="hover:text-sky-300"> Myanmar Projects </a> </li>
-            <li> <a href="/mongolia" className="hover:text-sky-300"> Mongolia Projects </a> </li>
+            <li className="nav-item">
+              <Link href="/domestic">
+                <a className="px-2 py-2 flex items-center text-md text-white hover:text-sky-300">
+                  <span className="ml-2">Domestic Projects</span>
+                </a>
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link href="/myanmar">
+                <a className="px-2 py-2 flex items-center text-md text-white hover:text-sky-300">
+                  <span className="ml-2">Myanmar Projects</span>
+                </a>
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link href="/mongolia">
+                <a className="px-2 py-2 flex items-center text-md text-white hover:text-sky-300">
+                  <span className="ml-2">Mongolia Projects</span>
+                </a>
+              </Link>
+            </li>
           </ul>
         </div>
       </div>

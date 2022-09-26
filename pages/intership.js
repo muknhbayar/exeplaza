@@ -1,12 +1,32 @@
 import React from "react";
-//Layout-ийг дуудаж байгаа хэсэг
 import MainLayout from "../layout/MainLayout";
+import LazyLoad from 'react-lazy-load';
 
 const intership = () => {
   return (
 
     <MainLayout>
+              <div className="top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden text-center relative overflow-hidden bg-no-repeat bg-cover" style={{backgroundImage: 'url("/assets/img/mv-sm.jpg")' , backgroundColor: 'rgba(0, 0, 0, 0)',  height: 450}}>                  
+                      <div className="flex justify-center items-center h-full">
+                        <div>
+                            <h2 className="font-bold text-4xl font-sans text-white uppercase">Internship</h2>                            
+                        </div>
+                      </div>      
+              </div>  
+
       <div className="flex flex-col mx-auto max-w-6xl">
+
+       <p className="font-sans font-light mt-8 py-4 text-gray-600"><em>
+       "People who want to change themselves" <br/>“People who have their own sense of values, not the same as others”</em>
+       </p>
+        <p className="font-sans font-bold text-gray-600">
+        Why don't you try new things! ?
+        </p>
+        <p className="font-sans font-light text-gray-600">
+        Age, student, working person does not matter. Our purpose is to push your back to a new step. Challenge, we are waiting for you.
+        </p>
+           
+
         <div className="overflow-x-auto sm:-mx-6 lg:-mx-8">
           <div className="py-4 inline-block min-w-full sm:px-6 lg:px-8">
             <div className="overflow-hidden"></div>
@@ -76,7 +96,7 @@ const intership = () => {
 
             {/*Internship overview  */}
 
-            <h2 className="mt-12 font-bold text-lg pb-4">
+            <h2 className="mt-12 font-bold text-xl pb-4">
               Internship overview
             </h2>
 
@@ -249,7 +269,7 @@ const intership = () => {
                   </td>
                 </tr>
                 <tr>
-                  <th className="text-md font-bold font-sans text-black px-6 py-4 bg-slate-200 leading-8">
+                  <th className="text-md font-bold font-sans text-black px-6 py-4 bg-slate-200 leading-8 text-left">
                     Corporate burden
                   </th>
                   <td

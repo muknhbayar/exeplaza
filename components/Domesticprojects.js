@@ -1,4 +1,6 @@
 import React from "react";
+import Link from "next/link";
+import LazyLoad from 'react-lazy-load';
 
 const Domesticprojects = () => {
   return (
@@ -34,15 +36,16 @@ const Domesticprojects = () => {
               Fukutoshin Line, a very convenient line that runs through Shibuya,
               Meijijingumae
             </p>
-            <a
-              className="inline-block px-7 py-4 mt-6 bg-sky-500 text-white font-light text-sm leading-snug uppercase rounded hover:bg-sky-400 focus:outline-none focus:ring-0 transition duration-150 ease-in-out"
-              href="#!"
-              role="button"
-              data-mdb-ripple="true"
-              data-mdb-ripple-color="light"
-            >
-              LEARN MORE
-            </a>
+            <Link href="/bellsarge">
+                <a
+                  className="inline-block px-7 py-4 my-4 bg-sky-500 text-white font-light text-sm leading-snug uppercase rounded hover:bg-sky-400 focus:outline-none focus:ring-0 transition duration-150 ease-in-out"
+                  role="button"
+                  data-mdb-ripple="true"
+                  data-mdb-ripple-color="light"
+                >
+                  LEARN MORE
+                </a>
+              </Link>
           </div>
         </div>
       </div>
