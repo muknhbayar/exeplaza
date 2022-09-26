@@ -62,7 +62,7 @@ export default function Navbar({ fixed }) {
                       data-bs-toggle="dropdown"
                       aria-expanded="false"
                     >
-                      ABOUT EXE
+                     {t("common:ABOUT EXE")}
                       <svg
                         aria-hidden="true"
                         focusable="false"
@@ -87,14 +87,14 @@ export default function Navbar({ fixed }) {
                       <li>
                         <Link href="/greetings">
                           <a className="dropdown-item px-12 text-sm py-2 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100">
-                            Message from SEO
+                          {t("common:Message from the CEO")}
                           </a>
                         </Link>
                       </li>
                       <li>
                         <Link href="/corporate">
                           <a className="dropdown-item px-12 text-sm py-2 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100">
-                            Corporate profile
+                          {t("common:Corporate Profile")}
                           </a>
                         </Link>
                       </li>
@@ -109,35 +109,35 @@ export default function Navbar({ fixed }) {
                 <Link href="/overseas">
                   <a className="px-2 py-2 flex items-center text-md uppercase leading-snug text-white hover:text-sky-300">
                     {/* <i className="fab fa-twitter text-lg leading-lg text-white opacity-75"></i> */}
-                    <span className="ml-2">OVERSEAS PROJECTS</span>
+                    <span className="ml-2">{t("common:Overseas Projects")}</span>
                   </a>
                 </Link>
               </li>
               <li className="nav-item">
                 <Link href="/domestic">
                   <a className="px-2 py-2 flex items-center text-md uppercase leading-snug text-white hover:text-sky-300">
-                    <span className="ml-2">DOMESTIC PROJECTS</span>
+                    <span className="ml-2">{t("common:Domestic Projects")}</span>
                   </a>
                 </Link>
               </li>
               <li className="nav-item">
                 <Link href="/intership">
                   <a className="px-2 py-2 flex items-center text-md uppercase leading-snug text-white hover:text-sky-300">
-                    <span className="ml-2">INTERSHIP</span>
+                    <span className="ml-2">{t("common:Internship")}</span>
                   </a>
                 </Link>
               </li>
               <li className="nav-item">
                 <Link href="/recrut">
                   <a className="px-2 py-2 flex items-center text-md uppercase leading-snug text-white hover:text-sky-300">
-                    <span className="ml-2">RECRUT</span>
+                    <span className="ml-2">{t("common:Recruit")}</span>
                   </a>
                 </Link>
               </li>
               <li className="nav-item">
                 <Link href="/contact">
                   <a className="px-2 py-2 flex items-center text-md uppercase leading-snug text-white hover:text-sky-300">
-                    <span className="ml-2">CONTACT</span>
+                    <span className="ml-2">{t("common:Contact")}</span>
                   </a>
                 </Link>
               </li>
@@ -155,7 +155,7 @@ export default function Navbar({ fixed }) {
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                LANGUAGE
+                {t("common:Language")}
                 <svg
                   aria-hidden="true"
                   focusable="false"

@@ -4,7 +4,7 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <div>
-      <div className="flex flex-grow justify-end bg-pink-500 w-16 h-48 mr-0 sticky top-0"  > fixed </div>
+      {/* <div className="flex flex-grow justify-end bg-pink-500 w-16 h-48 mr-0 sticky top-0"  > fixed </div> */}
 
       <div className="grid gap-2 grid-cols md:grid-cols-3 bg-neutral-800 w-full p-12">
         <div className="max-w-lg pl-4 mt-4 md:p-4 md:ml-4">
