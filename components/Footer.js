@@ -1,12 +1,20 @@
 import React from "react";
 import Link from "next/link";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import {
+//   faSearch,
+//   faAmbulance,
+//   faAnchor,
+// } from "@fortawesome/free-solid-svg-icons";
 
 const Footer = () => {
   return (
     <div>
-      {/* <div className="flex flex-grow justify-end bg-pink-500 w-16 h-48 mr-0 sticky top-0"  > fixed </div> */}
 
-      <div className="grid gap-2 grid-cols md:grid-cols-3 bg-neutral-800 w-full p-12">
+    
+      <div className="sticky active:border-[3px] active:border-r-0 border-cyan-600 active:rounded my-[3px] hover:bg-rose-400 duration-150"> <a href="/career"> ENQUIRY </a> </div>
+
+      <div className="grid gap-2 grid-cols md:grid-cols-3 bg-neutral-800 w-full p-4 md:p-12">
         <div className="max-w-lg pl-4 mt-4 md:p-4 md:ml-4">
           <h2 className="text-white text-md">CONTACT</h2>
           <ul className="text-gray-300 font-light pl-4 list-none w-full">
@@ -66,6 +74,18 @@ const Footer = () => {
           </ul>
         </div>
       </div>
+
+      <a className="to-top-button show px-3 py-2 mb-16 mr-8 border text-[12px] bg-gray-300 rounded-lg duration-300 " href="#">
+      <i className="fa-sharp fa-solid fa-arrow-up"></i>
+		{/* <FontAwesomeIcon
+        icon={faAmbulance}
+        style={{ fontSize: 100, color: "orange" }}
+      />
+      <FontAwesomeIcon icon=" fa-arrow-up" /> */}
+
+	</a>
+
+
 
       <div className="text-center text-sm font-light bg-zinc-900 text-gray-300 p-2">
         Copyright © 2022 EXE Corporation All Rights Reserved.

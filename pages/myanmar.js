@@ -16,7 +16,7 @@ const myanmar = () => {
       >
         <div className="flex justify-center items-center h-full">
           <div>
-            <h2 className="font-bold text-4xl font-sans text-white uppercase">
+            <h2 className="font-bold text-3xl font-sans text-white uppercase">
               Myanmar Projects
             </h2>
           </div>
@@ -63,14 +63,14 @@ const myanmar = () => {
 
             <div className="flex justify-center col-span-2 mt-16">
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
-                <div className="flex md:order-last md: ml-16 w-full">
+                <div className="flex md:order-last md:ml-16 w-full">
                   <img
                     src="/assets/img/md_1657618555.jpg"
                     loading="lazy"
                     className="transition duration-300 ease-linear align-middle w-full"
                   />
                 </div>
-                <div className="w-full mr-8 pb-16">
+                <div className="w-full mr-8 pb-16 pl-8">
                   <h2 className="font-serif text-2xl text-gray-800 font-bold ">
                     Sakura Residence
                   </h2>
@@ -107,10 +107,10 @@ const myanmar = () => {
           <hr className="border-b border-1 border-rose-300 w-16 mt-4" />
         </div>
       </div>
-
+{/* 
       <div>
         <div className="container my-24 px-6 mx-auto">
-  {/* Section: Design Block */}
+  
   <section className="mb-32 text-gray-800 text-center">
     <div className="grid grid-cols-1 lg:grid-cols-4 gap-6 xl:gap-x-4">
       <div className="mb-6 lg:mb-0">
@@ -137,7 +137,6 @@ const myanmar = () => {
         </div>
       </div>
 
-{/* dfdfd */}
 <div className="mb-6 lg:mb-0">
         <div>
           <div className="relative overflow-hidden bg-no-repeat bg-cover relative overflow-hidden bg-no-repeat bg-cover ripple shadow-lg rounded-lg mb-6" data-mdb-ripple="true" data-mdb-ripple-color="light">
@@ -161,7 +160,6 @@ const myanmar = () => {
           </p>
         </div>
       </div>
-{/* dfdfdf */}
       <div className="mb-6 lg:mb-0">
         <div>
           <div className="relative overflow-hidden bg-no-repeat bg-cover relative overflow-hidden bg-no-repeat bg-cover ripple shadow-lg rounded-lg mb-6" data-mdb-ripple="true" data-mdb-ripple-color="light">
@@ -210,10 +208,9 @@ const myanmar = () => {
       </div>
     </div>
   </section>
-  {/* Section: Design Block */}
 </div>
 
-</div>
+</div> */}
 
 
 

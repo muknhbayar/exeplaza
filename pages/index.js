@@ -12,6 +12,7 @@ import Slider from "../components/Slider";
 
 //Layout-ийг дуудаж байгаа хэсэг
 import MainLayout from "../layout/MainLayout";
+import css from "../styles/Home.module.css";
 
 
 

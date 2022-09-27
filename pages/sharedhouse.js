@@ -10,7 +10,7 @@ const Sharedhouse = () => {
       <div className="top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden text-center relative overflow-hidden bg-no-repeat bg-cover"
         style={{backgroundImage: 'url("/assets/img/mv-sm.jpg")', backgroundColor: "rgba(0, 0, 0, 0)", height: 450,}}>
         <div className="flex justify-center items-center h-full">
-          <div> <h2 className="font-bold text-4xl font-sans text-white uppercase"> Shared House </h2> 
+          <div> <h2 className="font-bold text-3xl font-sans text-white uppercase"> Shared House </h2> 
                 <Link href="http://www.mmtl.jp/"><a className="hover:font-bold text-white mx-auto" target="_blank">http://www.mmtl.jp/</a></Link>
           </div> 
         </div>
@@ -20,7 +20,7 @@ const Sharedhouse = () => {
         <div className="flex justify-center pt-4 col-span-2">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 lg:mx-16">
             <div> <img src="/assets/img/1663422100.jpg" loading="lazy" className="transition duration-300 ease-linear align-middle w-full" /> </div>
-            <div className="w-full mx-16">
+            <div className="w-full md:mx-16 pl-4">
               <h2 className="font-serif text-3xl text-gray-800 font-bold "> Shared House </h2>
               <p className="font-light mt-6 font-sans text-gray-800 max-w-xl ">
               EXE operates shared-houses concentrating on students overseas. Shared-house is consort rental house styled that several residents use one house or condo.

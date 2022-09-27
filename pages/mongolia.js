@@ -16,7 +16,7 @@ const mongolia = () => {
       >
         <div className="flex justify-center items-center h-full">
           <div>
-            <h2 className="font-bold text-4xl font-sans text-white uppercase">
+            <h2 className="font-bold text-3xl font-sans text-white uppercase">
               Mongolia Projects
             </h2>
           </div>
@@ -34,7 +34,7 @@ const mongolia = () => {
                 className="transition duration-300 ease-linear align-middle w-full"
               />
             </div>
-            <div className="w-full mx-16">
+            <div className="w-full mx-8 md:mx-16">
               <h2 className="font-serif text-3xl text-gray-800 font-bold ">
               Finance Industry
               </h2>
@@ -55,14 +55,14 @@ const mongolia = () => {
 
             <div className="flex justify-center col-span-2 mt-16">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
-            <div className="flex md:order-last md: ml-16 w-full">
+            <div className="flex md:order-last md:ml-16 w-full">
               <img
                 src="/assets/img/1659508110.jpg"
                 loading="lazy"
                 className="transition duration-300 ease-linear align-middle w-full"
               />
             </div>
-            <div className="w-full mr-8 pb-16">
+            <div className="w-full mr-8 pb-16 pl-8">
               <h2 className="font-serif text-3xl text-gray-800 font-bold ">
                 Education
               </h2>
