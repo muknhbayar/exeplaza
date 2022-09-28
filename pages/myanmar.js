@@ -71,7 +71,7 @@ const myanmar = () => {
                   />
                 </div>
                 <div className="w-full mr-8 pb-16 pl-8">
-                  <h2 className="font-serif text-2xl text-gray-800 font-bold ">
+                  <h2 className="font-serif text-2xl text-gray-800 font-bold mt-8 ">
                     Sakura Residence
                   </h2>
                   <p className="font-light mt-6 font-sans text-gray-800 max-w-xl ">

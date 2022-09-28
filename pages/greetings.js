@@ -10,13 +10,13 @@ const greetings = () => {
               <div className="top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden text-center relative overflow-hidden bg-no-repeat bg-cover" style={{backgroundImage: 'url("/assets/img/mv-sm.jpg")' , backgroundColor: 'rgba(0, 0, 0, 0)',  height: 450}}>                  
                       <div className="flex justify-center items-center h-full">
                         <div>
-                            <h2 className="font-bold text-4xl font-sans text-white uppercase">Message from the CEO</h2>                            
+                            <h2 className="font-bold text-3xl font-sans text-white uppercase">Message from the CEO</h2>                            
                         </div>
                       </div>      
               </div>       
         
 
-      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 mx-auto bg-white max-w-7xl py-16">
+      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 mx-auto bg-white max-w-7xl md:py-16">
         
       <div className="w-full p-4 md:mx-auto md:ml-4 md:w-72 xl:w-full ">
         <img src="/assets/img/1657970132.jpg" loading="lazy" />

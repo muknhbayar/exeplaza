@@ -27,7 +27,7 @@ const domestic = () => {
         </div>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 mx-auto bg-white max-w-6xl py-16">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 mx-auto bg-white max-w-6xl md:py-16">
         <div className="w-full p-4 md:col-span-2 md:px-16 lg:col-span-3 ">
           <h1 className="font-serif text-3xl font-bold">Real Estate</h1>
           <h2 className="font-serif text-2xl font-bold py-4">
@@ -72,7 +72,7 @@ const domestic = () => {
                 className="transition duration-300 ease-linear align-middle w-full"
               />
             </div>
-            <div className="w-full mx-8">
+            <div className="w-full md:mx-8 p-4">
               <h2 className="font-serif text-2xl text-gray-800 font-bold ">
                 Luxury Service Apartment - Bellsarge MEJIRO
               </h2>
@@ -105,11 +105,11 @@ const domestic = () => {
                     className="transition duration-300 ease-linear align-middle w-full"
                   />
                 </div>
-                <div className="w-full md:mr-8 pb-16 mx-auto">
+                <div className="w-full md:mr-8 md:pb-16 mx-auto p-4">
                   <h2 className="font-serif text-2xl text-gray-800 font-bold">
                     Shared House
                   </h2>
-                  <p className="font-light mt-6 font-sans text-gray-800 max-w-xl ">
+                  <p className="font-light mt-6 font-sans text-gray-800 max-w-xl">
                     EXE operates shared-houses concentrating on students
                     overseas. Shared-house is consort rental house styled that
                     several residents use one house or condo.Residents use

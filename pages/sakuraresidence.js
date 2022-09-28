@@ -9,7 +9,7 @@ const sakuraresidence = () => {
       <div className="top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden text-center relative overflow-hidden bg-no-repeat bg-cover"
         style={{backgroundImage: 'url("/assets/img/mv-sm.jpg")', backgroundColor: "rgba(0, 0, 0, 0)", height: 450,}}>
         <div className="flex justify-center items-center h-full">
-          <div> <h2 className="font-bold text-4xl font-sans text-white uppercase"> Sakura Residence </h2> 
+          <div> <h2 className="font-bold text-3xl font-sans text-white uppercase"> Sakura Residence </h2> 
                 <Link href="http://www.sakura-residence-yangon.com/"><a className="hover:font-bold text-white mx-auto" target="_blank">http://www.sakura-residence-yangon.com/</a></Link>
           </div> 
         </div>
@@ -19,7 +19,7 @@ const sakuraresidence = () => {
         <div className="flex justify-center pt-4 col-span-2">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 lg:mx-16">
             <div> <img src="/assets/img/md_1657618555.jpg" loading="lazy" className="transition duration-300 ease-linear align-middle w-full" /> </div>
-            <div className="w-full mx-16">
+            <div className="w-full md:mx-16">
               <h2 className="font-serif text-3xl text-gray-800 font-bold "> Sakura Residence </h2>
               <p className="font-light mt-6 font-sans text-gray-800 max-w-xl ">
               The luxurious Sakura Residence is undoubtedly Yangon’s original expatriate community. Located among the private residences and sweeping palms of Inya Road, it is conveniently located equidistant and just minutes from the international airport and Yangon’s central business district. Nestled on the crest of a hill, the Residence overlooks spectacular views of the shimmering golden Shwedagon Pagoda. Sakura Residence offers 261 superb fully furnished and equipped apartments ranging from comfortable studios to spacious three-bedroom apartments that you can call home from very moment you move in.

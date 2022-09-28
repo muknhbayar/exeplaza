@@ -6,7 +6,7 @@ const Aboutexe = () => {
     <div className="flex justify-center m-0 md:p-16">
       <div className="grid grid-cols-1 md:grid-cols-2">
         <div className="mx-auto md:pl-16">
-          <h2 className="font-serif text-2xl text-gray-900 font-semibold mt-4">
+          <h2 className="font-serif text-2xl text-gray-900 font-semibold mt-4 text-center">
             About EXE Corporation
           </h2>
           <p className="font-light mt-4 font-sans text-gray-800 max-w-lg m-4 md:mr-16">
