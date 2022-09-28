@@ -17,10 +17,10 @@ const intership = () => {
       <div className="flex flex-col mx-auto max-w-6xl">
 
        <p className="font-sans font-light mt-8 py-4 text-gray-600"><em>
-       &ldquo;People who want to change themselves&rdquo; <br/>&ldquo;People who have their own sense of values, not the same as others&rdquo;</em>
+       "People who want to change themselves" <br/>“People who have their own sense of values, not the same as others”</em>
        </p>
         <p className="font-sans font-bold text-gray-600">
-        Why don&apos;t you try new things! ?
+        Why don't you try new things! ?
         </p>
         <p className="font-sans font-light text-gray-600">
         Age, student, working person does not matter. Our purpose is to push your back to a new step. Challenge, we are waiting for you.
@@ -49,7 +49,8 @@ const intership = () => {
                   </th>
                   <td className="text-md font-sans font-light text-black px-6 py-4 bg-slate-200 leading-8">
                     <span className="font-sans font-bold">
-                      Sakura Tower&nbsp;
+                      {" "}
+                      Sakura Tower&nbsp;{" "}
                     </span>
                     <a
                       href="http://sakura-tower-yangon.com/"
@@ -231,8 +232,8 @@ const intership = () => {
                       <li>
                         Document review: We will ask you to submit your resume
                         (if you are working, please also submit your work
-                        history), an essay What I want to do in a business
-                        internship (400 characters), and a copy of your TOEIC
+                        history), an essay "What I want to do in a business
+                        internship (400 characters)", and a copy of your TOEIC
                         score certificate.
                       </li>
                       <li>
@@ -400,13 +401,13 @@ const intership = () => {
                   data-bs-parent="#accordionExample"
                 >
                   <div className="accordion-body py-4 px-5">
-                    <strong>This is the second item&apos;s accordion body.</strong>{" "}
+                    <strong>This is the second item's accordion body.</strong>{" "}
                     It is hidden by default, until the collapse plugin adds the
                     appropriate classes that we use to style each element. These
                     classes control the overall appearance, as well as the
                     showing and hiding via CSS transitions. You can modify any
                     of this with custom CSS or overriding our default variables.
-                    It&apos;s also worth noting that just about any HTML can go
+                    It's also worth noting that just about any HTML can go
                     within the <code>.accordion-body</code>, though the
                     transition does limit overflow.
                   </div>
@@ -447,13 +448,13 @@ const intership = () => {
                   data-bs-parent="#accordionExample"
                 >
                   <div className="accordion-body py-4 px-5">
-                    <strong>This is the third item&apos;s accordion body.</strong> It
+                    <strong>This is the third item's accordion body.</strong> It
                     is hidden by default, until the collapse plugin adds the
                     appropriate classes that we use to style each element. These
                     classes control the overall appearance, as well as the
                     showing and hiding via CSS transitions. You can modify any
                     of this with custom CSS or overriding our default variables.
-                    It&apos;s also worth noting that just about any HTML can go
+                    It's also worth noting that just about any HTML can go
                     within the <code>.accordion-body</code>, though the
                     transition does limit overflow.
                   </div>

@@ -41,7 +41,7 @@ const myanmar = () => {
               <p className="font-light mt-6 font-sans text-gray-800 max-w-xl ">
                 Sakura Tower was completed in 1999 by Japanese architects Nihon
                 Sekkei and Konoike Construction cp Ltd. It stands in the very
-                heart of Yangon&apos;s central business and Government district, and
+                heart of Yangon's central business and Government district, and
                 is a 20 story office building with total lentable are of 12,425
                 sqm and 9 feet floor heights. The first 3floors are rental areas
                 of 1,183 sqm with ticket offices of leading airline companies as
