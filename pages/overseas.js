@@ -3,7 +3,6 @@ import Projects from "../components/Projects";
 import MainLayout from "../layout/MainLayout";
 import Link from "next/link";
 import LazyLoad from 'react-lazy-load';
-import Image from "next/image";
 
 const overseas = () => {
   return (
