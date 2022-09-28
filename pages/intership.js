@@ -1,6 +1,6 @@
 import React from "react";
 import MainLayout from "../layout/MainLayout";
-import LazyLoad from 'react-lazy-load';
+import LazyLoad from "react-lazy-load";
 
 const intership = () => {
   return (

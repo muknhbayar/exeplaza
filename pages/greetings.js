@@ -1,6 +1,6 @@
 import React from "react";
 import MainLayout from "../layout/MainLayout";
-import LazyLoad from 'react-lazy-load';
+import LazyLoad from "react-lazy-load";
 
 
 const greetings = () => {
@@ -78,7 +78,7 @@ const greetings = () => {
         <p className="font-sans font-light leading-7 mt-4 ">
         This investment motto is materialized in the domestic and Asian projects introduced here. We have
         realized and are managing several projects in Myanmar, Mongolia and
-        Israel, thereby helping in these countries' development. 
+        Israel, thereby helping in these countries development. 
         <br /> <br /> This investment
         policy is applied to our approach to human resources. We take investment
         in people as most important and meaningful capital and are always

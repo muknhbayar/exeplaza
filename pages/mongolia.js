@@ -56,7 +56,7 @@ const mongolia = () => {
             <div className="flex justify-center col-span-2 mt-16">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
             <div className="flex md:order-last md:ml-16 w-full">
-              <img
+              <image
                 src="/assets/img/1659508110.jpg"
                 loading="lazy"
                 className="transition duration-300 ease-linear align-middle w-full"
@@ -67,8 +67,9 @@ const mongolia = () => {
                 Education
               </h2>
               <p className="font-light mt-6 font-sans text-gray-800 max-w-xl ">
-                After supporting Mongolian educational sector, financing several school buildings with total capacity of 3,500 students, in 2018 we started operating our own private school in Mongolia. This is &ldquo;Olonlog EXE&rdquo; ITschool, the first kind of school in Mongolia, in which we teach the IT curriculum from the elementary...
-              </p>
+After supporting Mongolian educational sector, financing several school buildings with total capacity of 3,500 students, in 2018 we started operating our own private school in Mongolia. This is “Olonlog EXE” ITschool, the first kind of school in Mongolia, in which we teach the IT curriculum from the elementary school stage. Now in “Olonlog EXE” school there are nearly 500 bright students, from elementary school grade 1 to high school, who are striving to become the innovative power of Mongolia in the digital era. <br/>
+Since the establishment within this short period of time the students showed the great attitude towards the learning where it is proven by the academic achievement. We have students who received full scholarships from the US, Canada and Japanese educational institutions. Not only scholarships after their high school graduation but during their study in the school, our students are winning medals constantly from the various national and provincial level IT, Math and English language competitions. We believe our students can become the top international level professionals who will lead not only in Mongolia but globally.
+</p>
               <Link href="/education">
                 <a
                   className="inline-block px-7 py-4 my-4 bg-sky-500 text-white font-light text-sm leading-snug uppercase rounded hover:bg-sky-400 focus:outline-none focus:ring-0 transition duration-150 ease-in-out"
