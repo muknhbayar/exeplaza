@@ -23,7 +23,7 @@ const sakuratower = () => {
             <div className="w-full">
               <h2 className="font-serif text-3xl text-gray-800 font-bold "> Sakura Tower Yangon </h2>
               <p className="font-light mt-6 font-sans text-gray-800 max-w-xl ">
-                Sakura Tower was completed in 1999 by Japanese architects Nihon Sekkei and Konoike Construction cp Ltd. It stands in the very heart of Yangon's central business and Government district, and is a 20 story office building with total lentable are of 12,425 sqm and 9 feet floor heights. The first 3floors are rental areas of 1,183 sqm with ticket offices of leading airline companies as well as travel agencies, dentists, showrooms and so on. From the 5th floor up are offices of multinational companies and organizations such as JICA (Japan International Corporation Agency), Mitsubishi Corporation, Nikkei, and NHK.
+                Sakura Tower was completed in 1999 by Japanese architects Nihon Sekkei and Konoike Construction cp Ltd. It stands in the very heart of Yangon&apos;s central business and Government district, and is a 20 story office building with total lentable are of 12,425 sqm and 9 feet floor heights. The first 3floors are rental areas of 1,183 sqm with ticket offices of leading airline companies as well as travel agencies, dentists, showrooms and so on. From the 5th floor up are offices of multinational companies and organizations such as JICA (Japan International Corporation Agency), Mitsubishi Corporation, Nikkei, and NHK.
               </p>
            
 
