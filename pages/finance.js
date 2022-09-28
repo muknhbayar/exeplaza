@@ -2,6 +2,7 @@ import React from "react";
 import MainLayout from "../layout/MainLayout";
 import Link from "next/link";
 import LazyLoad from 'react-lazy-load';
+import image from "next/image";
 
 const finance = () => {
   return (
@@ -16,7 +17,7 @@ const finance = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 mx-auto bg-white max-w-6xl md:py-16 my-2">
         <div className="flex justify-center col-span-2">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 lg:mx-16">
-            <div> <img src="/assets/img/1659582198.jpg" loading="lazy" className="transition duration-300 ease-linear align-middle w-full" /> </div>
+            <div> <image src="/assets/img/1659582198.jpg" loading="lazy" className="transition duration-300 ease-linear align-middle w-full" /> </div>
             <div className="w-full md:mx-16 p-2">
               <h2 className="font-serif text-3xl text-gray-800 font-bold "> Finance Industry </h2>
               <p className="font-light mt-6 font-sans text-gray-800 max-w-xl ">

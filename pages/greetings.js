@@ -1,6 +1,7 @@
 import React from "react";
 import MainLayout from "../layout/MainLayout";
 import LazyLoad from "react-lazy-load";
+import image from "next/image";
 
 
 const greetings = () => {
@@ -19,7 +20,7 @@ const greetings = () => {
       <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 mx-auto bg-white max-w-7xl md:py-16">
         
       <div className="w-full p-4 md:mx-auto md:ml-4 md:w-72 xl:w-full ">
-        <img src="/assets/img/1657970132.jpg" loading="lazy" />
+        <image src="/assets/img/1657970132.jpg" loading="lazy" />
       </div>
 
       <div className="w-full p-4 md:col-span-2 md:px-16 lg:col-span-3 ">

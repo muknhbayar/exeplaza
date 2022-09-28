@@ -3,6 +3,7 @@ import Link from "next/link";
 import LazyLoad from "react-lazy-load";
 import useTranslation from "next-translate/useTranslation";
 import { useRouter } from "next/router";
+import Image from "next/image";
 
 export default function Navbar({ fixed }) {
   let { t } = useTranslation();
@@ -19,7 +20,7 @@ export default function Navbar({ fixed }) {
             <Link href="/">
               <a className=" font-bold leading-relaxed inline-block py-2 whitespace-nowrap uppercase text-white">
                 <div>
-                  <img
+                  <image
                     src="/assets/img/exe-logo.png"
                     loading="lazy"
                     className="w-28 px-2 transition duration-300 ease-linear align-middle"

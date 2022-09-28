@@ -1,5 +1,6 @@
 import React from "react";
 import LazyLoad from 'react-lazy-load';
+import Image from "next/image";
 
 const Announcements = () => {
   return (
@@ -15,7 +16,7 @@ const Announcements = () => {
       <div className="grid gap-2 grid-cols-1 md:grid-cols-2 max-w-4xl mx-auto">
         
         <div className="w-full m-0 p-4 md:w-96">
-          <img src="/assets/img/md_1661105093.jpg " loading="lazy"/>
+          <image src="/assets/img/md_1661105093.jpg " loading="lazy"/>
         </div>
 
         <div className="ml-6 pt-16">

@@ -6,6 +6,7 @@ import Sharedhouse from "../components/Sharedhouse";
 import MainLayout from "../layout/MainLayout";
 import Link from "next/link";
 import LazyLoad from 'react-lazy-load';
+import image from "next/image";
 
 const domestic = () => {
   return (
@@ -66,7 +67,7 @@ const domestic = () => {
         <div className="flex justify-center pt-4 col-span-2">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 lg:mx-16">
             <div>
-              <img
+              <image
                 src="/assets/img/1663423410.jpg"
                 loading="lazy"
                 className="transition duration-300 ease-linear align-middle w-full"
@@ -99,7 +100,7 @@ const domestic = () => {
             <div className="flex justify-center col-span-2 mt-16">
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
                 <div className="flex md:order-last md:ml-16 w-full">
-                  <img
+                  <image
                     src="/assets/img/1663422100.jpg"
                     loading="lazy"
                     className="transition duration-300 ease-linear align-middle w-full"

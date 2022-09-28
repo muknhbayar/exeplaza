@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import LazyLoad from 'react-lazy-load';
+import Image from "next/image";
 
 const Sharedhouse = () => {
   return (
@@ -30,7 +31,7 @@ const Sharedhouse = () => {
       
 
       <div>
-        <img
+        <image
           src="/assets/img/1663422100.jpg" loading="lazy"
           className="w-full px-8 pb-4 transition duration-300 ease-linear align-middle "
         />

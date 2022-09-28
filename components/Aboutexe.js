@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 const Aboutexe = () => {
   return (
@@ -35,7 +36,7 @@ const Aboutexe = () => {
         </div>
 
         <div>
-          <img
+          <image
             src="/assets/img/1658049181.jpg"
             className="w-full h-screen max-h-96 transition duration-300 ease-linear align-middle "
             loading="lazy"

@@ -2,6 +2,7 @@ import React from 'react';
 import MainLayout from '../layout/MainLayout';
 import Link from 'next/link';
 import LazyLoad from 'react-lazy-load';
+import image from 'next/image';
 
 const education = () => {
   return (
@@ -16,7 +17,7 @@ const education = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 mx-auto bg-white max-w-6xl py-16">
         <div className="flex justify-center pt-4 col-span-2">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 lg:mx-16">
-            <div> <img src="/assets/img/1659508110.jpg" loading="lazy" className="transition duration-300 ease-linear align-middle w-full" /> </div>
+            <div> <image src="/assets/img/1659508110.jpg" loading="lazy" className="transition duration-300 ease-linear align-middle w-full" /> </div>
             <div className="w-full mx-16">
               <h2 className="font-serif text-3xl text-gray-800 font-bold "> Education </h2>
               <p className="font-light mt-6 font-sans text-gray-800 max-w-xl ">

@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import LazyLoad from 'react-lazy-load';
+import Image from "next/image";
 
 const Domesticprojects = () => {
   return (
@@ -17,7 +18,7 @@ const Domesticprojects = () => {
       <div className="flex justify-center pt-4">
         <div className="grid grid-cols-1 md:grid-cols-2">
           <div>
-            <img
+            <image
               src="/assets/img/1663423410.jpg"
               loading="lazy"
               className="transition duration-300 ease-linear align-middle"

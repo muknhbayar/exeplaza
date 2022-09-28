@@ -2,6 +2,7 @@ import React from 'react';
 import MainLayout from '../layout/MainLayout';
 import Link from 'next/link';
 import LazyLoad from 'react-lazy-load';
+import Image from 'next/image';
 
 
 const sakuratower = () => {
@@ -19,11 +20,11 @@ const sakuratower = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 mx-auto bg-white max-w-6xl py-16">
         <div className="flex justify-center pt-4 col-span-2">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 lg:mx-16">
-            <div> <img src="/assets/img/1657618380.jpg" loading="lazy" className="transition duration-300 ease-linear align-middle w-full" /> </div>
+            <div> <image src="/assets/img/1657618380.jpg" loading="lazy" className="transition duration-300 ease-linear align-middle w-full" /> </div>
             <div className="w-full">
               <h2 className="font-serif text-3xl text-gray-800 font-bold "> Sakura Tower Yangon </h2>
               <p className="font-light mt-6 font-sans text-gray-800 max-w-xl ">
-                Sakura Tower was completed in 1999 by Japanese architects Nihon Sekkei and Konoike Construction cp Ltd. It stands in the very heart of Yangon's central business and Government district, and is a 20 story office building with total lentable are of 12,425 sqm and 9 feet floor heights. The first 3floors are rental areas of 1,183 sqm with ticket offices of leading airline companies as well as travel agencies, dentists, showrooms and so on. From the 5th floor up are offices of multinational companies and organizations such as JICA (Japan International Corporation Agency), Mitsubishi Corporation, Nikkei, and NHK.
+                Sakura Tower was completed in 1999 by Japanese architects Nihon Sekkei and Konoike Construction cp Ltd. It stands in the very heart of Yangon&apos;s central business and Government district, and is a 20 story office building with total lentable are of 12,425 sqm and 9 feet floor heights. The first 3floors are rental areas of 1,183 sqm with ticket offices of leading airline companies as well as travel agencies, dentists, showrooms and so on. From the 5th floor up are offices of multinational companies and organizations such as JICA (Japan International Corporation Agency), Mitsubishi Corporation, Nikkei, and NHK.
               </p>
            
 
