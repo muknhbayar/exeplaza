@@ -46,3 +46,10 @@
   color: #1c0765;
   transition: color .5s, visibility .5s;
 }
+
+.carousel-caption {
+  position:absolute;
+	top:160px;
+	left:100px;
+
+}

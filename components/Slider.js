@@ -15,25 +15,25 @@ const Slider = () => {
     {/* Single item */}
     <div className="carousel-item active relative float-left w-full">
       <img src="/assets/img/mv.jpg" className="block w-full" alt="Motorbike Smoke" />
-      <div className="carousel-caption hidden md:block absolute text-left">
-        <h5 className="text-6xl md:mb-0 md:pb-4 md:max-w-2xl text-white">Every market has investing opportunities</h5>
-        <p className="text-xl md:mb-24 md:pb-96" >Lorem ipsum dolor sit amet adipiscing consectetur adipiscing elit .</p>
+      <div className="carousel-caption hidden md:block absolute text-left absolute ">
+        <h5 className="text-sm sm:text2xl md:text-4xl xl:text-5xl 2xl:text-6xl md:mb-0 md:pb-4 md:max-w-3xl text-white">Every market has investing opportunities</h5>
+        <p className="text-sm md:text-xl md:mb-24 sm:pb-8 md:pb-96" >Lorem ipsum dolor sit amet adipiscing consectetur adipiscing elit .</p>
       </div>
     </div>
     {/* Single item */}
     <div className="carousel-item relative float-left w-full">
       <img src="/assets/img/mv2.jpg" className="block w-full" alt="Mountaintop" />
-      <div className="carousel-caption hidden md:block absolute text-left">
-      <h5 className="text-6xl md:mb-0 md:pb-4 md:max-w-2xl text-white">Every market has investing opportunities</h5>
-        <p className="text-xl md:mb-24 md:pb-96" >Lorem ipsum dolor sit amet adipiscing consectetur adipiscing elit .</p>
+      <div className="carousel-caption hidden md:block absolute text-left ">
+      <h5 className="text-sm sm:text2xl md:text-4xl xl:text-5xl 2xl:text-6xl md:mb-0 md:pb-4 md:max-w-3xl text-white">Every market has investing opportunities</h5>
+        <p className="text-sm md:text-xl md:mb-24 sm:pb-8 md:pb-96" >Lorem ipsum dolor sit amet adipiscing consectetur adipiscing elit .</p>
       </div>
     </div>
     {/* Single item */}
     <div className="carousel-item relative float-left w-full">
       <img src="/assets/img/mv3.jpg" className="block w-full" alt="Woman Reading a Book" />
       <div className="carousel-caption hidden md:block absolute text-left">
-      <h5 className="text-6xl md:mb-0 md:pb-4 md:max-w-2xl text-white">Every market has investing opportunities</h5>
-        <p className="text-xl md:mb-24 md:pb-96" >Lorem ipsum dolor sit amet adipiscing consectetur adipiscing elit .</p>
+      <h5 className="text-sm sm:text2xl md:text-4xl xl:text-5xl 2xl:text-6xl md:mb-0 md:pb-4 md:max-w-3xl text-white">Every market has investing opportunities</h5>
+        <p className="text-sm md:text-xl md:mb-24 sm:pb-8 md:pb-96" >Lorem ipsum dolor sit amet adipiscing consectetur adipiscing elit .</p>
       </div>
     </div>
   </div>

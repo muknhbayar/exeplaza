@@ -3,6 +3,7 @@ import Link from "next/link";
 import LazyLoad from "react-lazy-load";
 import useTranslation from "next-translate/useTranslation";
 import { useRouter } from "next/router";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function Navbar({ fixed }) {
   let { t } = useTranslation();
@@ -127,7 +128,7 @@ export default function Navbar({ fixed }) {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link href="/recrut">
+                <Link href="/recruit">
                   <a className="px-2 py-2 flex items-center text-sm uppercase leading-snug text-white hover:text-sky-300">
                     <span className="ml-2">{t("common:Recruit")}</span>
                   </a>
@@ -169,6 +170,7 @@ export default function Navbar({ fixed }) {
                     d="M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z"
                   />
                 </svg>
+                
               </button>
 
               <ul
@@ -176,7 +178,22 @@ export default function Navbar({ fixed }) {
     shadow-lg m-8 hidden bg-clip-padding border-none"
                 aria-labelledby="dropdownMenuButton1tx"
               >
-                {router.locales.map((l) => (
+                
+                <li>
+                  <Link href={router.asPath} locale={"en"}>
+                      <a className="dropdown-item px-2 md:px-12 text-sm py-2 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100">
+                        ENGLISH
+                      </a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href={router.asPath} locale={"jp"}>
+                      <a className="dropdown-item px-2 md:px-12 text-sm py-2 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100">
+                          日本語
+                      </a>
+                  </Link>
+                </li>
+                {/* {router.locales.map((l) => (
                   <li key={l}>
                     <Link href={router.asPath} locale={l}>
                       <a className="dropdown-item px-2 md:px-12 text-sm py-2 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100">
@@ -184,7 +201,7 @@ export default function Navbar({ fixed }) {
                       </a>
                     </Link>
                   </li>
-                ))}
+                ))} */}
               </ul>
             </div>
           </div>

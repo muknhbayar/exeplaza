@@ -2,7 +2,7 @@ import React from "react";
 import MainLayout from "../layout/MainLayout";
 import LazyLoad from 'react-lazy-load';
 
-const recrut = () => {
+const recruit = () => {
   return (
     <div>
       <MainLayout>
@@ -267,4 +267,4 @@ const recrut = () => {
   );
 };
 
-export default recrut;
+export default recruit;
