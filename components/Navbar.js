@@ -17,7 +17,7 @@ export default function Navbar({ fixed }) {
       >
         <div className="container pl-8 mx-auto flex flex-wrap items-center justify-start ml-0">
           <div className="w-full relative flex justify-start lg:w-auto lg:static lg:block">
-            <Link href="/">
+            <Link href="/jp">
               <a className=" font-bold leading-relaxed inline-block py-2 whitespace-nowrap uppercase text-white">
                 <div>
                   <img
@@ -179,17 +179,18 @@ export default function Navbar({ fixed }) {
                 aria-labelledby="dropdownMenuButton1tx"
               >
                 
-                <li>
-                  <Link href={router.asPath} locale={"en"}>
-                      <a className="dropdown-item px-2 md:px-12 text-sm py-2 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100">
-                        ENGLISH
-                      </a>
-                  </Link>
-                </li>
+                
                 <li>
                   <Link href={router.asPath} locale={"jp"}>
                       <a className="dropdown-item px-2 md:px-12 text-sm py-2 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100">
                           日本語
+                      </a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href={router.asPath} locale={"en"}>
+                      <a className="dropdown-item px-2 md:px-12 text-sm py-2 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100">
+                        ENGLISH
                       </a>
                   </Link>
                 </li>

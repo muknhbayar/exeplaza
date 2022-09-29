@@ -55,11 +55,11 @@ const mongolia = () => {
 
             <div className="flex justify-center col-span-2 mt-16">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
-            <div className="flex md:order-last md:ml-16 w-full">
-              <image
+            <div className="flex md:order-last md:ml-16 ">
+              <img
                 src="/assets/img/1659508110.jpg"
                 loading="lazy"
-                className="transition duration-300 ease-linear align-middle w-full"
+                className="transition duration-300 ease-linear align-middle w-full h-72"
               />
             </div>
             <div className="w-full mr-8 pb-16 pl-8">

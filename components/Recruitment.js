@@ -27,7 +27,7 @@ const Recruitment = () => {
               EXE has operated a number of projects in Myanmar, Mongolia and we
               are hiring new graduates and mid-career employees at any time.
             </p>
-            <Link href="/recrut">
+            <Link href="/recruit">
               <a
                 className="inline-block px-7 py-4 my-4 bg-sky-500 text-white font-light text-sm leading-snug uppercase rounded hover:bg-sky-400 focus:outline-none focus:ring-0 transition duration-150 ease-in-out"
                 role="button"
