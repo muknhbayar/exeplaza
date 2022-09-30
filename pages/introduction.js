@@ -90,7 +90,7 @@ const introduction = () => {
               type="button"
               className="bg-indigo-600 text-white text-sm leading-6 font-medium py-2 px-3 rounded-lg"
             >
-              Дэгэрэнгүй танилцуулга
+              Дэлгэрэнгүй танилцуулга
             </button>
           </div>
           <p className="mt-4 text-sm leading-6 col-start-1 sm:col-span-2 lg:mt-6 lg:row-start-4 lg:col-span-1 dark:text-slate-400">
