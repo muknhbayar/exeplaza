@@ -1,41 +1,31 @@
 import React from "react";
-import MainLayout from "../layout/MainLayout";
+import MainLayoutEn from '../../layout/MainLayoutEn';
+
 
 const intership = () => {
   return (
-    <MainLayout>
-      <div
-        className="top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden text-center relative overflow-hidden bg-no-repeat bg-cover"
-        style={{
-          backgroundImage: 'url("/assets/img/mv-sm.jpg")',
-          backgroundColor: "rgba(0, 0, 0, 0)",
-          height: 450,
-        }}
-      >
-        <div className="flex justify-center items-center h-full">
-          <div>
-            <h2 className="font-bold text-4xl font-sans text-white uppercase">
-              インターンシップ
-            </h2>
-          </div>
-        </div>
-      </div>
+
+    <MainLayoutEn>
+              <div className="top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden text-center relative overflow-hidden bg-no-repeat bg-cover" style={{backgroundImage: 'url("/assets/img/mv-sm.jpg")' , backgroundColor: 'rgba(0, 0, 0, 0)',  height: 450}}>                  
+                      <div className="flex justify-center items-center h-full">
+                        <div>
+                            <h2 className="font-bold text-4xl font-sans text-white uppercase">Internship</h2>                            
+                        </div>
+                      </div>      
+              </div>  
 
       <div className="flex flex-col mx-auto max-w-6xl">
-        <p className="font-sans font-light mt-8 py-4 text-gray-600">
-          <em>
-            &ldquo;「自ら変化を求める方」&rdquo; <br />
-            &ldquo;「人と同じではなく自分なりの価値観を持っている方」&rdquo;
-          </em>
-        </p>
+
+       <p className="font-sans font-light mt-8 py-4 text-gray-600"><em>
+       &ldquo;People who want to change themselves&rdquo; <br/>&ldquo;People who have their own sense of values, not the same as others&rdquo;</em>
+       </p>
         <p className="font-sans font-bold text-gray-600">
-          新しいことにチャレンジしてみませんか！？
+        Why don&apos;t you try new things! ?
         </p>
         <p className="font-sans font-light text-gray-600">
-          年齢・学生・社会人は問いません。
-          私たちの目的は、新たな一歩へ皆さんの背中を押すことです。
-          チャレンジ、お待ちしています。
+        Age, student, working person does not matter. Our purpose is to push your back to a new step. Challenge, we are waiting for you.
         </p>
+           
 
         <div className="overflow-x-auto sm:-mx-6 lg:-mx-8">
           <div className="py-4 inline-block min-w-full sm:px-6 lg:px-8">
@@ -55,11 +45,11 @@ const intership = () => {
               <tbody>
                 <tr>
                   <th className="text-md font-bold font-sans text-black px-6 py-4 bg-slate-200 leading-8">
-                    実施場所
+                    Location
                   </th>
                   <td className="text-md font-sans font-light text-black px-6 py-4 bg-slate-200 leading-8">
                     <span className="font-sans font-bold">
-                      サクラタワー &nbsp;
+                      Sakura Tower&nbsp;
                     </span>
                     <a
                       href="http://sakura-tower-yangon.com/"
@@ -69,7 +59,7 @@ const intership = () => {
                     </a>
                     <br />
                     <span className="font-sans font-bold">
-                      サクラレジデンス &nbsp;
+                      Sakura Residence&nbsp;
                     </span>
                     <a
                       href="http://sakura-residence-yangon.com/"
@@ -78,24 +68,24 @@ const intership = () => {
                       http://sakura-residence-yangon.com/
                     </a>
                     <p>
-                      (ミャンマー：ヤンゴン）
+                      (Myanmar: Yangon)
                       <br />
-                      ※日本人が常に駐在しています。
+                      *Japanese are always stationed.
                     </p>
                   </td>
                 </tr>
                 <tr>
                   <th className="text-md font-bold font-sans text-black px-6 py-4 leading-8">
-                    お問い合わせ方法
+                    Contact method
                   </th>
                   <td className="text-md font-sans font-light text-black px-6 py-4 leading-8">
                     <p>
-                      お電話又はお問い合わせフォームよりご連絡下さい。
+                      Please contact us by phone or through the inquiry form.
                       <br />
-                      株式会社エクセ　
+                      EXE Co., Ltd.
                       <strong>TEL: (03) 3288 2371 / FAX: (03) 3288 2471</strong>
                       <br />
-                      採用担当 中塚（なかつか）
+                      Recruitment Manager Nakatsuka
                     </p>
                   </td>
                 </tr>
@@ -106,7 +96,7 @@ const intership = () => {
             {/*Internship overview  */}
 
             <h2 className="mt-12 font-bold text-xl pb-4">
-              インターンシップ概要：別ページ
+              Internship overview
             </h2>
 
             <table
@@ -127,13 +117,13 @@ const intership = () => {
                     className="text-md font-bold font-sans text-black px-6 py-4 bg-slate-200 leading-8"
                     style={{ height: "19.6px", textAlign: "left" }}
                   >
-                    時期
+                    Season
                   </th>
                   <td
                     className="text-md font-sans font-light text-black px-6 py-4 bg-slate-200 leading-8"
                     style={{ height: "19.6px" }}
                   >
-                    随時
+                    As needed
                   </td>
                 </tr>
                 <tr style={{ height: "58.8px" }}>
@@ -141,13 +131,13 @@ const intership = () => {
                     className="text-md font-bold font-sans text-black px-6 py-4 leading-8"
                     style={{ height: "58.8px", textAlign: "left" }}
                   >
-                    参加対象
+                    Participation target
                   </th>
                   <td
                     className="text-md font-sans font-light text-black px-6 py-4 leading-8"
                     style={{ height: "58.8px" }}
                   >
-                    年齢・職歴問わず、学生歓迎。
+                    Students are welcome regardless of age or work experience.
                   </td>
                 </tr>
                 <tr style={{ height: "19.6px" }}>
@@ -155,24 +145,30 @@ const intership = () => {
                     className="text-md font-bold font-sans text-black px-6 py-4 bg-slate-200 leading-8"
                     style={{ height: "19.6px", textAlign: "left" }}
                   >
-                    応募資格
+                    Qualification requirements
                   </th>
                   <td
                     className="text-md font-sans font-light text-black px-6 py-4  bg-slate-200 leading-8"
                     style={{ height: "19.6px" }}
                   >
                     <ol className="list-decimal">
-                      <li>アジアに興味がある、アジアが大好きな方。</li>
+                      <li>Those who are interested in Asia and love Asia.</li>
                       <li>
-                        ホテル運営に興味があるなど好奇心を持ち、また向上心をもった元気のあ
-                        る方。
+                        Enthusiastic person who has curiosity, such as an
+                        interest in hotel management, and is ambitious.
                       </li>
                       <li>
-                        リゾートホテルにおけるサービス、国際的な感覚、英語力等を身につけた
-                        い方。
+                        Those who want to acquire service at a resort hotel, an
+                        international sense, English ability, etc.
                       </li>
-                      <li>自分の英語力、その他の言語力を試したい方。</li>
-                      <li>旅行ではなく、人とは違った海外経験をしたい方。</li>
+                      <li>
+                        Those who want to test their English and other language
+                        skills.
+                      </li>
+                      <li>
+                        Those who want to have an overseas experience that is
+                        different from other people, not a trip.
+                      </li>
                     </ol>
                   </td>
                 </tr>
@@ -181,15 +177,15 @@ const intership = () => {
                     className="text-md font-bold font-sans text-black px-6 py-4 leading-8"
                     style={{ height: "19.6px", textAlign: "left" }}
                   >
-                    実施場所
+                    Location
                   </th>
                   <td
                     className="text-md font-sans font-light text-black px-6 py-4 leading-8"
                     style={{ height: "19.6px" }}
                   >
-                    サクラタワー、サクラレジデンス（ミャンマー：ヤンゴン）
+                    Sakura Tower, Sakura Residence (Myanmar: Yangon)
                     <br />
-                    ※日本人が常に駐在しています。
+                    *Japanese are always stationed.
                   </td>
                 </tr>
                 <tr style={{ height: "19.6px" }}>
@@ -197,13 +193,13 @@ const intership = () => {
                     className="text-md font-bold font-sans text-black px-6 py-4 bg-slate-200 leading-8"
                     style={{ height: "19.6px", textAlign: "left" }}
                   >
-                    職種
+                    Occupation
                   </th>
                   <td
                     className="text-md font-sans font-light text-black px-6 py-4  bg-slate-200 leading-8"
                     style={{ height: "19.6px" }}
                   >
-                    ウェイター・ウェイトレス、ハウスキーピング、お土産販売　など
+                    Waiters/waitresses, housekeeping, souvenir sales, etc.
                   </td>
                 </tr>
                 <tr style={{ height: "19.6px" }}>
@@ -211,13 +207,13 @@ const intership = () => {
                     className="text-md font-bold font-sans text-black px-6 py-4 leading-8"
                     style={{ height: "19.6px", textAlign: "left" }}
                   >
-                    研修期間
+                    Training period
                   </th>
                   <td
                     className="text-md font-sans font-light text-black px-6 py-4 leading-8"
                     style={{ height: "19.6px" }}
                   >
-                    1ヶ月～（要相談）
+                    From 1 month (consultation required)
                   </td>
                 </tr>
                 <tr style={{ height: "39.2px" }}>
@@ -225,7 +221,7 @@ const intership = () => {
                     className="text-md font-bold font-sans text-black px-6 py-4 bg-slate-200 leading-8"
                     style={{ height: "39.2px", textAlign: "left" }}
                   >
-                    応募から研修までの流れ
+                    Flow from application to training
                   </th>
                   <td
                     className="text-md font-sans font-light text-black px-6 py-4  bg-slate-200 leading-8"
@@ -233,20 +229,26 @@ const intership = () => {
                   >
                     <ol className="list-decimal">
                       <li>
-                        書類審査：履歴書（社会人の方は職務経歴書もご提出下さい）、作文「私
-                        がビジネスインターンシップでしたいこと（400字）」、TOEICスコア検定
-                        証のコピーをご提出頂きます。
+                        Document review: We will ask you to submit your resume
+                        (if you are working, please also submit your work
+                        history), an essay What I want to do in a business
+                        internship (400 characters), and a copy of your TOEIC
+                        score certificate.
                       </li>
                       <li>
-                        一次面接：電話・Skypeによる研修概要と面接を行います。
+                        1st interview: We will conduct an interview with an
+                        outline of the training by telephone or Skype.
                       </li>
                       <li>
-                        最終面接：株式会社エクセ（東京・半蔵門オフィス）またはヤンゴンにて
-                        面接を行います。
-                        ※費用は交通・宿泊費は自己負担となります。
+                        Final interview: The interview will be held at EXE Co.,
+                        Ltd. (Hanzomon office in Tokyo) or Yangon.
                       </li>
-                      <li>最終合否判定</li>
-                      <li>合格者はヤンゴンでの研修開始</li>
+                      <li>
+                        *Transportation and accommodation expenses will be borne
+                        by the participants.
+                      </li>
+                      <li>Final pass/fail judgment</li>
+                      <li>Successful applicants start training in Yangon</li>
                     </ol>
                   </td>
                 </tr>
@@ -255,25 +257,26 @@ const intership = () => {
                     className="text-md font-bold font-sans text-black px-6 py-4 leading-8"
                     style={{ height: "110px", textAlign: "left" }}
                   >
-                    自己負担
+                    Self-pay
                   </th>
                   <td className="text-md font-sans font-light text-black px-6 py-4 leading-8">
-                    航空券・保険等費用
+                    Air ticket, insurance, etc. <br />
+                    (Japan-Yangon air ticket, Yangon-Bagan travel, overseas
+                    travel insurance, etc.)
                     <br />
-                    （日本－ヤンゴン航空券代、ヤンゴン－バガン移動費用、海外旅行保険料等）
-                    <br />
-                    ※研修は現地集合（ヤンゴン）となります。
+                    *The training will be held locally (Yangon).
                   </td>
                 </tr>
                 <tr>
                   <th className="text-md font-bold font-sans text-black px-6 py-4 bg-slate-200 leading-8 text-left">
-                    企業負担
+                    Corporate burden
                   </th>
                   <td
                     className="text-md font-sans font-light text-black px-6 py-4  bg-slate-200 leading-8"
                     style={{ height: 196 }}
                   >
-                    宿泊・食事等費用、通勤送迎費
+                    Expenses for accommodation, meals, etc., commuting
+                    transportation expenses
                   </td>
                 </tr>
 
@@ -282,20 +285,21 @@ const intership = () => {
                     className="text-md font-bold font-sans text-black px-6 py-4 leading-8"
                     style={{ height: "19.6px", textAlign: "left" }}
                   >
-                    その他補足
+                    Other supplements
                   </th>
                   <td
                     className="text-md font-sans font-light text-black px-6 py-4 leading-8"
                     style={{ height: "19.6px" }}
                   >
                     <ol className="list-decimal">
-                      <li>給与等の支給はございません。</li>
+                      <li>No salary is paid.</li>
                       <li>
-                        ミャンマー未来塾は採用に結びつくものではありません。
+                        Myanmar Mirai Juku does not lead to recruitment.
                         <br />
-                        本採用を希望される方は別途選考を受けて頂く必要があります。
-                        <br />
-                        ※ミャンマー未来塾の生徒インターン生から本採用の実績あり。
+                        Those who wish to be hired must undergo a separate
+                        selection process. <br />
+                        *There is a track record of full-time employment from
+                        students of Myanmar Mirai Juku.
                       </li>
                     </ol>
                   </td>
@@ -396,9 +400,7 @@ const intership = () => {
                   data-bs-parent="#accordionExample"
                 >
                   <div className="accordion-body py-4 px-5">
-                    <strong>
-                      This is the second item&apos;s accordion body.
-                    </strong>{" "}
+                    <strong>This is the second item&apos;s accordion body.</strong>{" "}
                     It is hidden by default, until the collapse plugin adds the
                     appropriate classes that we use to style each element. These
                     classes control the overall appearance, as well as the
@@ -445,10 +447,8 @@ const intership = () => {
                   data-bs-parent="#accordionExample"
                 >
                   <div className="accordion-body py-4 px-5">
-                    <strong>
-                      This is the third item&apos;s accordion body.
-                    </strong>{" "}
-                    It is hidden by default, until the collapse plugin adds the
+                    <strong>This is the third item&apos;s accordion body.</strong> It
+                    is hidden by default, until the collapse plugin adds the
                     appropriate classes that we use to style each element. These
                     classes control the overall appearance, as well as the
                     showing and hiding via CSS transitions. You can modify any
@@ -463,7 +463,7 @@ const intership = () => {
           </div>
         </div>
       </div>
-    </MainLayout>
+    </MainLayoutEn>
   );
 };
 

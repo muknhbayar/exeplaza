@@ -1,12 +1,12 @@
-import MainLayout from "../layout/MainLayout";
-import Head from "next/head";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import LazyLoad from "react-lazy-load";
+import MainLayoutEn from '../../layout/MainLayoutEn';
+import Head from 'next/head';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import LazyLoad from 'react-lazy-load';
 
 const contact = () => {
   return (
     <div>
-      <MainLayout>
+      <MainLayoutEn>
         <div
           className="top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden text-center relative overflow-hidden bg-no-repeat bg-cover"
           style={{
@@ -18,32 +18,26 @@ const contact = () => {
           <div className="flex justify-center items-center h-full">
             <div>
               <h2 className="font-bold text-4xl font-sans text-white uppercase">
-                お問い合わせ
+                Contact Us
               </h2>
             </div>
           </div>
         </div>
-
+        
         <div>
           <div className="container my-24 px-6 mx-auto">
+          
             {/* Section: Design Block */}
             <section className="mb-32 text-center text-gray-800">
               <div className="max-w-[700px] mx-auto px-3 lg:px-6">
-                <i className="fab fa-twitter text-lg leading-lg text-white opacity-75"></i>{" "}
-                <h1 className="text-3xl font-bold">(813)32882371</h1>
-                <p>
-                  <i class="fa-solid fa-heart fa-beat"></i>{" "}
-                  <a
-                    href="mailto:mail@exegroup.co.jp"
-                    className="hover:text-blue-500"
-                  >
-                    mail@exegroup.co.jp
-                  </a>
-                </p>
-                <p className="text-2xl font-bold font-serif text-left my-4 pt-4">
-                  お問い合わせください。
-                </p>
-                <h2 className="text-3xl font-bold mb-12">お問い合わせ</h2>
+              <i className="fab fa-twitter text-lg leading-lg text-white opacity-75"></i> <h1 className="text-3xl font-bold">(813)32882371</h1>
+              <p>
+              
+              <i class="fa-solid fa-heart fa-beat"></i> <a href="mailto:mail@exegroup.co.jp" className="hover:text-blue-500">mail@exegroup.co.jp</a>
+              </p>
+
+              <p className="text-2xl font-bold font-serif text-left my-4 pt-4">Drop us an Enquiry.</p>
+                <h2 className="text-3xl font-bold mb-12">Contact us</h2>
                 <form>
                   <div className="form-group mb-6">
                     <input
@@ -155,7 +149,7 @@ const contact = () => {
             {/* Section: Design Block */}
           </div>
         </div>
-      </MainLayout>
+      </MainLayoutEn>
     </div>
   );
 };

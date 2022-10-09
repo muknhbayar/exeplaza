@@ -1,11 +1,11 @@
 import React from "react";
-import MainLayout from "../layout/MainLayout";
-import LazyLoad from "react-lazy-load";
+import MainLayoutEn from '../../layout/MainLayoutEn';
+import LazyLoad from 'react-lazy-load';
 
 const recruit = () => {
   return (
     <div>
-      <MainLayout>
+      <MainLayoutEn>
         <div
           className="top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden text-center relative overflow-hidden bg-no-repeat bg-cover"
           style={{
@@ -17,7 +17,7 @@ const recruit = () => {
           <div className="flex justify-center items-center h-full">
             <div>
               <h2 className="font-bold text-4xl font-sans text-white uppercase">
-                リクルート
+                Recruit
               </h2>
             </div>
           </div>
@@ -25,10 +25,11 @@ const recruit = () => {
 
         <div className="max-w-2xl mx-auto text-center pt-4 font-sans ">
           <h2 className="mx-auto text-center p-2 font-bold text-md">
-            株式会社エグゼの最新採用情報です。
+            The latest recruitment information of EXE Corporation
           </h2>
           <p className="mx-auto text-center font-light text-md font-sans">
-            エグゼはミャンマー、モンゴル、ベトナム、イスラエルで数多くのプロジェクトを運営しており、新卒採用、中途採用も随時行っております。
+            EXE has operated a number of projects in Myanmar, Mongolia and we
+            are hiring new graduates and mid-career employees at any time.
           </p>
         </div>
         <div className="flex flex-col mx-auto max-w-6xl bg-slate-50 my-8 p-8">
@@ -54,13 +55,13 @@ const recruit = () => {
                       className="text-md font-bold font-sans text-black px-6 py-4 bg-slate-200 leading-8"
                       style={{ height: "19.6px", textAlign: "left" }}
                     >
-                      募集職種
+                      Occupational category of recruitment
                     </th>
                     <td
                       className="text-md font-sans font-light text-black px-6 py-4 bg-slate-200 leading-8"
                       style={{ height: "19.6px" }}
                     >
-                      レギュラーポジション
+                      Regular position
                     </td>
                   </tr>
                   <tr style={{ height: "58.8px" }}>
@@ -68,25 +69,28 @@ const recruit = () => {
                       className="text-md font-bold font-sans text-black px-6 py-4 leading-8"
                       style={{ height: "58.8px", textAlign: "left" }}
                     >
-                      募集職種の詳細
+                      Details of the occupational category of recruitment
                     </th>
                     <td
                       className="text-md font-sans font-light text-black px-6 py-4 leading-8"
                       style={{ height: "58.8px" }}
                     >
-                      プロジェクト管理タスク
+                      Project management tasks <br />
+                      You will be in charge of all task related to the office
+                      buildings, service apartments, hotels, and restaurants
+                      that we own in Myanmar.
                       <br />
-                      ミャンマー国内に保有するオフィスビル、サービスアパートメント、ホテル、レストランに関する業務全般をお任せします。
+                      *Sales, engineering, accounting, related to human
+                      resources and general affairs, and so on〈Sakura Tower〉
                       <br />
-                      ※営業、技術、経理、人事・総務関係など 〈さくらタワー〉
+                      Myanmar’s (Yangon’s) landmark tower <br />
+                      Houses the offices of many Japanese corporations and the
+                      rooftop bar 「Yangon Yangon」on the top floor is the
+                      origin of entertainment in Myanmar. <br />
+                      〈Sakura Residence〉
                       <br />
-                      ミャンマー（ヤンゴン）のランドマークタワー
-                      多くの日系企業のオフィスが入居し、最上階のルーフトップバー「ヤンゴン
-                      ヤンゴン」はミャンマーのエンターテイメントの原点。
-                      <br />
-                      〈さくら邸〉
-                      <br />
-                      ミャンマー（ヤンゴン）最大規模を誇る長期入居者向けの集合住宅
+                      An apartment complex that boasts the largest scale in
+                      Myanmar (Yangon) and is targeted at long-term tenants
                     </td>
                   </tr>
                   <tr style={{ height: "19.6px" }}>
@@ -94,13 +98,13 @@ const recruit = () => {
                       className="text-md font-bold font-sans text-black px-6 py-4 bg-slate-200 leading-8"
                       style={{ height: "19.6px", textAlign: "left" }}
                     >
-                      雇用制度
+                      Employment system
                     </th>
                     <td
                       className="text-md font-sans font-light text-black px-6 py-4  bg-slate-200 leading-8"
                       style={{ height: "19.6px" }}
                     >
-                      正社員
+                      Permanent employee
                     </td>
                   </tr>
                   <tr style={{ height: "19.6px" }}>
@@ -108,13 +112,15 @@ const recruit = () => {
                       className="text-md font-bold font-sans text-black px-6 py-4 leading-8"
                       style={{ height: "19.6px", textAlign: "left" }}
                     >
-                      エントリー・募集方法
+                      Entry/recruitment method
                     </th>
                     <td
                       className="text-md font-sans font-light text-black px-6 py-4 leading-8"
                       style={{ height: "19.6px" }}
                     >
-                      東京（またはヤンゴン）の本社で書類審査と面接・インターンシップ研修を1週間行い、最終判断を下す
+                      Review of documents and interview/internship training at
+                      the main office in Tokyo (or Yangon) for one week, after
+                      which the final verdict will be released
                     </td>
                   </tr>
                   <tr style={{ height: "19.6px" }}>
@@ -122,13 +128,15 @@ const recruit = () => {
                       className="text-md font-bold font-sans text-black px-6 py-4 bg-slate-200 leading-8"
                       style={{ height: "19.6px", textAlign: "left" }}
                     >
-                      スクリーニング方法と焦点
+                      Screening method and focus
                     </th>
                     <td
                       className="text-md font-sans font-light text-black px-6 py-4  bg-slate-200 leading-8"
                       style={{ height: "19.6px" }}
                     >
-                      アジアに興味のある方。アジアが好きな人。勇敢で親しみやすい人。ミャンマー語に興味のある方大歓迎です。
+                      Someone interested in Asia. Someone who loves Asia.
+                      Someone who is courageous and amiable. We welcome people
+                      who are interested in Burmese.
                     </td>
                   </tr>
                   <tr style={{ height: "19.6px" }}>
@@ -136,13 +144,13 @@ const recruit = () => {
                       className="text-md font-bold font-sans text-black px-6 py-4 leading-8"
                       style={{ height: "19.6px", textAlign: "left" }}
                     >
-                      提出書類等の審査
+                      Documents to submit and other screenings
                     </th>
                     <td
                       className="text-md font-sans font-light text-black px-6 py-4 leading-8"
                       style={{ height: "19.6px" }}
                     >
-                      履歴書、履歴書、TOEIC検定のコピー
+                      Resume, CV, and a copy of TOEIC official verification
                     </td>
                   </tr>
                   <tr style={{ height: "39.2px" }}>
@@ -150,17 +158,16 @@ const recruit = () => {
                       className="text-md font-bold font-sans text-black px-6 py-4 bg-slate-200 leading-8"
                       style={{ height: "39.2px", textAlign: "left" }}
                     >
-                      採用連絡先
+                      Recruitment contact details
                     </th>
                     <td
                       className="text-md font-sans font-light text-black px-6 py-4  bg-slate-200 leading-8"
                       style={{ height: "39.2px" }}
                     >
-                      株式会社エグゼ
+                      EXE Corpotation <br />
+                      Recruitment staff: Shota Nakatsuka
                       <br />
-                      採用担当：中塚翔太
-                      <br />
-                      メール：shota.nakatsuka@careerart.co.jp
+                      Email: shota.nakatsuka@careerart.co.jp
                     </td>
                   </tr>
                   <tr>
@@ -168,18 +175,20 @@ const recruit = () => {
                       className="text-md font-bold font-sans text-black px-6 py-4 leading-8"
                       style={{ textAlign: "left" }}
                     >
-                      初任給
+                      Initial salary
                     </th>
                     <td className="text-md font-sans font-light text-black px-6 py-4 leading-8">
-                      月給：22万円以上 ※経験に応じて応相談
+                      Monthly salary: at least 220,000 yen *to be discussed
+                      depending on experience
                     </td>
                   </tr>
                   <tr>
                     <th className="text-md font-bold font-sans text-black px-6 py-4 bg-slate-200 leading-8">
-                      昇給・賞与・福利厚生
+                      Salary raise, bonus, and benefits
                     </th>
                     <td className="text-md font-sans font-light text-black px-6 py-4  bg-slate-200 leading-8">
-                      交通費（上限1万円）、時間外手当、出張手当、賞与
+                      Transport allowance (up to 10,000 yen), overtime
+                      allowance, business trip allowance, and bonus
                     </td>
                   </tr>
 
@@ -188,20 +197,20 @@ const recruit = () => {
                       className="text-md font-bold font-sans text-black px-6 py-4 leading-8"
                       style={{ textAlign: "left" }}
                     >
-                      勤務地
+                      Work location
                     </th>
                     <td className="text-md font-sans font-light text-black px-6 py-4 leading-8">
-                      ミャンマー（ヤンゴン）
-                      ※将来的に日本での勤務の可能性もあります。
+                      Myanmar (Yangon) *There might also be opportunities to
+                      work in Japan in the future.
                     </td>
                   </tr>
                   <tr>
                     <th className="text-md font-bold font-sans text-black px-6 py-4 bg-slate-200 leading-8 text-left">
-                      勤務時間
+                      Working hours
                     </th>
                     <td className="text-md font-sans font-light text-black px-6 py-4  bg-slate-200 leading-8">
-                      オフィスは午前9時から午後6時まで、ホテルと住居は午前5時30分から午後11時まで。
-                      （シフト制）
+                      Office 9:00 a.m. to 6:00 p.m., hotel and residence 5:30
+                      a.m. to 11:00 p.m. (shift system)
                     </td>
                   </tr>
 
@@ -210,19 +219,21 @@ const recruit = () => {
                       className="text-md font-bold font-sans text-black px-6 py-4 leading-8"
                       style={{ textAlign: "left" }}
                     >
-                      従業員給付
+                      Employee benefits
                     </th>
                     <td className="text-md font-sans font-light text-black px-6 py-4 leading-8">
-                      勤続年数に応じた賞与制度、社宅、送迎あり
+                      Reward system based on number of years of duty,
+                      company-owned residence, shuttle
                     </td>
                   </tr>
                   <tr>
                     <th className="text-md font-bold font-sans text-black px-6 py-4 bg-slate-200 leading-8 text-left">
-                      休日
+                      Holidays
                     </th>
                     <td className="text-md font-sans font-light text-black px-6 py-4  bg-slate-200 leading-8 ">
-                      週休2日制（土・日）、祝日、年末年始、夏季休暇
-                      ※イベント期間中は変動あり
+                      Two days per week (Saturday and Sunday), public holidays,
+                      year-end period, summer vacation *Subject to change during
+                      event periods
                     </td>
                   </tr>
 
@@ -231,13 +242,13 @@ const recruit = () => {
                       className="text-md font-bold font-sans text-black px-6 py-4 leading-8"
                       style={{ height: "19.6px", textAlign: "left" }}
                     >
-                      教育と訓練
+                      Education and training
                     </th>
                     <td
                       className="text-md font-sans font-light text-black px-6 py-4 leading-8"
                       style={{ height: "19.6px" }}
                     >
-                      必要に応じて利用できるサポート体制
+                      Support system available if necessary
                     </td>
                   </tr>
                 </tbody>
@@ -245,13 +256,13 @@ const recruit = () => {
 
               <hr />
               <p className="m-4 ">
-                ※ 返却不可の書類。 <br /> ※
-                ご不明な点がございましたら、お問い合わせください。
+                ※ Documents Not Returnable. <br /> ※ Contact us if any
+                questions.
               </p>
             </div>
           </div>
         </div>
-      </MainLayout>
+      </MainLayoutEn>
     </div>
   );
 };

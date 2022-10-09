@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import LazyLoad from "react-lazy-load";
+import LazyLoad from 'react-lazy-load';
 
 const Recruitment = () => {
   return (
@@ -17,25 +17,26 @@ const Recruitment = () => {
           <div className="text-gray-700 p-16 opacity-80 text-gray-800 max-w-2xl bg-gray-50">
             <div className="flex justify-center">
               <h2 className="font-semibold text-3xl font-serif text-gray-800 pb-8 ">
-                採用・インターンシップ情報
+                Recruitment Information
               </h2>
             </div>
             <h4 className="font-normal text-md mb-2 text-black">
-              株式会社エグゼの最新採用情報です。
+              The latest recruitment information of EXE Corporation.
             </h4>
-            <p className="font-light text-black">
-              エグゼはミャンマー、モンゴル、ベトナム、イスラエルで数多くのプロジェクトを運営しており、新卒採用、中途採用も随時行っております。
+            <p className="font-light text-black">              
+              EXE has operated a number of projects in Myanmar, Mongolia and we
+              are hiring new graduates and mid-career employees at any time.
             </p>
-            <Link href="/recruit">
+            <Link href="/en/recruit">
               <a
                 className="inline-block px-7 py-4 my-4 bg-sky-500 text-white font-light text-sm leading-snug uppercase rounded hover:bg-sky-400 focus:outline-none focus:ring-0 transition duration-150 ease-in-out"
                 role="button"
                 data-mdb-ripple="true"
                 data-mdb-ripple-color="light"
               >
-                もっと詳しく知る
+                LEARN MORE
               </a>
-            </Link>
+            </Link>            
           </div>
         </div>
       </div>

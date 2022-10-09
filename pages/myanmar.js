@@ -1,7 +1,7 @@
 import React from "react";
 import MainLayout from "../layout/MainLayout";
 import Link from "next/link";
-import LazyLoad from 'react-lazy-load';
+import LazyLoad from "react-lazy-load";
 
 const myanmar = () => {
   return (
@@ -17,7 +17,7 @@ const myanmar = () => {
         <div className="flex justify-center items-center h-full">
           <div>
             <h2 className="font-bold text-3xl font-sans text-white uppercase">
-              Myanmar Projects
+              ミャンマーのプロジェクト
             </h2>
           </div>
         </div>
@@ -35,30 +35,147 @@ const myanmar = () => {
             </div>
             <div className="w-full mx-8">
               <h2 className="font-serif text-2xl text-gray-800 font-bold ">
-                Sakura Tower Yangon
+                サクラタワー（ヤンゴン）
               </h2>
               <p className="font-light mt-6 font-sans text-gray-800 max-w-xl ">
-                Sakura Tower was completed in 1999 by Japanese architects Nihon
-                Sekkei and Konoike Construction cp Ltd. It stands in the very
-                heart of Yangon&apos;s central business and Government district, and
-                is a 20 story office building with total lentable are of 12,425
-                sqm and 9 feet floor heights. The first 3floors are rental areas
-                of 1,183 sqm with ticket offices of leading airline companies as
-                well as travel agencies, dentists, showrooms and so on. From the
-                5th floor up are offices of multinational companies and
-                organizations such as JICA (Japan International Corporation
-                Agency), Mitsubishi Corporation, Nikkei, and NHK.
+                サクラタワーは（株）日本設計、（株）鴻池組と、日本企業の手で1999年に完成しました。ヤンゴンのビジネス及び政治のまさに中心地区に位置し、総貸室面積12,425㎡、高さは地上約100mの20階建て耐震設計オフィスビルです。
+                <br />
+                <br />
+                地上1階～3階は総貸室面積1,183㎡の小売業エリアと
+                なっており、主要航空会社のチケットオフィスや旅行代理店、歯医者、ショールームなどが入居しています。
+                <br />
+                <br />
+                5階から19階にはJICA、三菱商事、日経、NHK等、グローバルに活躍する企業や団体が入居しています。
+                <br />
+                <br />
+                最上階である20階には、ヤンゴン市内を一望しながら厳選された美味しい各国料理を楽しむことのできる「ティリピセヤ・スカイ・ビストロ」があります。
               </p>
-              <Link href="/sakuratower">
-                <a
-                  className="inline-block px-7 py-4 my-4 bg-sky-500 text-white font-light text-sm leading-snug uppercase rounded hover:bg-sky-400 focus:outline-none focus:ring-0 transition duration-150 ease-in-out"
-                  role="button"
-                  data-mdb-ripple="true"
-                  data-mdb-ripple-color="light"
-                >
-                  LEARN MORE
-                </a>
-              </Link>
+              <div className="flex space-x-2 justify-start my-4">
+                <div>
+                  {/* Button trigger modal */}
+                  <Link href="/myanmar">
+                    <a>
+                      {" "}
+                      <button
+                        type="button"
+                        className="inline-block px-6 py-2 border-2 border-gray-400 text-gray-800 font-light text-md leading-tight hover:text-blue-500 hover:border-blue-400 hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out
+active:bg-white active:shadow-lg transition duration-150 ease-in-out"
+                        data-bs-toggle="modal"
+                        data-bs-target="#exampleModal"
+                      >
+                        設備
+                      </button>
+                    </a>
+                  </Link>
+
+                  {/* Modal */}
+                  <div
+                    className="modal fade fixed top-0 left-0 hidden w-full h-full outline-none overflow-x-hidden overflow-y-auto"
+                    id="exampleModal"
+                    tabIndex={-1}
+                    aria-labelledby="exampleModalLabel"
+                    aria-hidden="true"
+                  >
+                    <div className="modal-dialog relative w-auto pointer-events-none">
+                      <div className="modal-content border-none shadow-lg relative flex flex-col w-full pointer-events-auto bg-white bg-clip-padding rounded-md outline-none text-current">
+                        <div className="modal-header flex flex-shrink-0 items-center justify-between p-4 border-b border-gray-200 rounded-t-md">
+                          <h5
+                            className="text-xl font-medium leading-normal text-gray-800"
+                            id="exampleModalLabel"
+                          >
+                            {" "}
+                            設備{" "}
+                          </h5>
+                          <button
+                            type="button"
+                            className="btn-close box-content w-4 h-4 p-1 text-black border-none rounded-none opacity-50 focus:shadow-none focus:outline-none focus:opacity-100 hover:text-black hover:opacity-75 hover:no-underline"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          />{" "}
+                        </div>
+                        <div className="modal-body relative p-4 font-sans font-light">
+                          <ul>
+                            <li>- 24時間フルバックアップの自家発電システム</li>
+                            <li>
+                              -
+                              24時間体制の監視カメラと警備員による24時間保守警備
+                            </li>
+                            <li>- OA機器用床下配線</li>
+                            <li>- 高い国際基準に合わせて設計された耐震性</li>
+                            <li>
+                              - 火災報知機、スプリンクラー、避難口を各階に設置
+                            </li>
+                            <li>- ブロードバンドインターネットアクセス</li>
+                            <li>
+                              -
+                              4基のハイスピードエレベーター（日立製、三菱電機製）
+                            </li>
+                            <li>- 貨物専用エレベーター</li>
+                            <li>- 44台収容可能な機械式パーキングシステム</li>
+                            <li>- IDD電話</li>
+                            <li>- 衛星テレビ、ケーブルテレビ</li>
+                            <li>- 電話回線：400回線</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                {/* fdfdf */}
+                <div>
+                  {/* Button trigger modal */}
+                  <Link href="/myanmar">
+                    <a>
+                      {" "}
+                      <button
+                        type="button"
+                        className="inline-block px-6 py-2 border-2 border-gray-400 text-gray-800 font-light text-md leading-tight hover:text-blue-500 hover:border-blue-400 hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out
+active:bg-white active:shadow-lg transition duration-150 ease-in-out"
+                        data-bs-toggle="modal"
+                        data-bs-target="#exampleModal"
+                      >
+                        調度品
+                      </button>
+                    </a>
+                  </Link>
+
+                  {/* Modal */}
+                  <div
+                    className="modal fade fixed top-0 left-0 hidden w-full h-full outline-none overflow-x-hidden overflow-y-auto"
+                    id="exampleModal"
+                    tabIndex={-1}
+                    aria-labelledby="exampleModalLabel"
+                    aria-hidden="true"
+                  >
+                    <div className="modal-dialog relative w-auto pointer-events-none">
+                      <div className="modal-content border-none shadow-lg relative flex flex-col w-full pointer-events-auto bg-white bg-clip-padding rounded-md outline-none text-current">
+                        <div className="modal-header flex flex-shrink-0 items-center justify-between p-4 border-b border-gray-200 rounded-t-md">
+                          <h5
+                            className="text-xl font-medium leading-normal text-gray-800"
+                            id="exampleModalLabel"
+                          >
+                            {" "}
+                            調度品{" "}
+                          </h5>
+                          <button
+                            type="button"
+                            className="btn-close box-content w-4 h-4 p-1 text-black border-none rounded-none opacity-50 focus:shadow-none focus:outline-none focus:opacity-100 hover:text-black hover:opacity-75 hover:no-underline"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          />{" "}
+                        </div>
+                        <div className="modal-body relative p-4">
+                          {" "}
+                          Furnishings Modal body text goes here.{" "}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                {/* fdfdf */}
+              </div>
             </div>
 
             <div className="flex justify-center col-span-2 mt-16">
@@ -72,26 +189,150 @@ const myanmar = () => {
                 </div>
                 <div className="w-full mr-8 pb-16 pl-8">
                   <h2 className="font-serif text-2xl text-gray-800 font-bold mt-8 ">
-                    Sakura Residence
+                    サクラレジデンス（ヤンゴン）
                   </h2>
                   <p className="font-light mt-6 font-sans text-gray-800 max-w-xl ">
-                    The luxurious Sakura Residence is undoubtedly Yangon&rsquo;s
-                    original expatriate community. Located among the private
-                    residences and sweeping palms of Inya Road, it is
-                    conveniently located equidistant and just minutes from the
-                    international airport and Yangon&rsquo;s central business
-                    district. Nestled on the crest ...
+                    サクラレジデンスは、1998年にヤンゴンで最初に作られた海外駐在員向けの世界水準のサービスを備えた高級サービスアパートメントであり、1泊からもご利用いただける高級ホテルでもあります。閑静な住宅地やインヤ通りのヤシ並木に程近い場所に位置し、ヤンゴン国際空港やビジネス街からほんの数分という好立地にあります。
+                    <br />
+                    <br />
+                    レジデンス内からは、黄金に輝くシュエダゴンパゴダの素晴らしい景色をご覧頂けます。
+                    <br />
+                    <br />
+                    サクラレジデンスは、お客様が訪れた瞬間から「我が家」と呼ぶに相応しい、ワンルームから広々とした3ベッドルームまでの261室の家具付きのお部屋、広く開放的な庭園やプール、美味しい料理をいつでも味わうことのできるレストラン「カフェ・ティリピセヤ」等、リラックスして快適にお過ごしいただける各種サービスをご用意しています。
                   </p>
-                  <Link href="/sakuraresidence">
-                    <a
-                      className="inline-block px-7 py-4 my-4 bg-sky-500 text-white font-light text-sm leading-snug uppercase rounded hover:bg-sky-400 focus:outline-none focus:ring-0 transition duration-150 ease-in-out"
-                      role="button"
-                      data-mdb-ripple="true"
-                      data-mdb-ripple-color="light"
-                    >
-                      LEARN MORE
-                    </a>
-                  </Link>
+                  <div className="flex space-x-2 justify-start my-4">
+                    <div>
+                      {/* Button trigger modal */}
+                      <Link href="/myanmar">
+                        <a>
+                          {" "}
+                          <button
+                            type="button"
+                            className="inline-block px-6 py-2 border-2 border-gray-400 text-gray-800 font-light text-md leading-tight hover:text-blue-500 hover:border-blue-400 hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out
+active:bg-white active:shadow-lg transition duration-150 ease-in-out"
+                            data-bs-toggle="modal"
+                            data-bs-target="#exampleModal"
+                          >
+                            設備
+                          </button>
+                        </a>
+                      </Link>
+
+                      {/* Modal */}
+                      <div
+                        className="modal fade fixed top-0 left-0 hidden w-full h-full outline-none overflow-x-hidden overflow-y-auto"
+                        id="exampleModal"
+                        tabIndex={-1}
+                        aria-labelledby="exampleModalLabel"
+                        aria-hidden="true"
+                      >
+                        <div className="modal-dialog relative w-auto pointer-events-none">
+                          <div className="modal-content border-none shadow-lg relative flex flex-col w-full pointer-events-auto bg-white bg-clip-padding rounded-md outline-none text-current">
+                            <div className="modal-header flex flex-shrink-0 items-center justify-between p-4 border-b border-gray-200 rounded-t-md">
+                              <h5
+                                className="text-xl font-medium leading-normal text-gray-800"
+                                id="exampleModalLabel"
+                              >
+                                {" "}
+                                設備{" "}
+                              </h5>
+                              <button
+                                type="button"
+                                className="btn-close box-content w-4 h-4 p-1 text-black border-none rounded-none opacity-50 focus:shadow-none focus:outline-none focus:opacity-100 hover:text-black hover:opacity-75 hover:no-underline"
+                                data-bs-dismiss="modal"
+                                aria-label="Close"
+                              />{" "}
+                            </div>
+                            <div className="modal-body relative p-4 font-sans font-light">
+                              <ul>
+                                <li>
+                                  - 24時間フルバックアップの自家発電システム
+                                </li>
+                                <li>
+                                  -
+                                  24時間体制の監視カメラと警備員による24時間保守警備
+                                </li>
+                                <li>- OA機器用床下配線</li>
+                                <li>
+                                  - 高い国際基準に合わせて設計された耐震性
+                                </li>
+                                <li>
+                                  -
+                                  火災報知機、スプリンクラー、避難口を各階に設置
+                                </li>
+                                <li>- ブロードバンドインターネットアクセス</li>
+                                <li>
+                                  -
+                                  4基のハイスピードエレベーター（日立製、三菱電機製）
+                                </li>
+                                <li>- 貨物専用エレベーター</li>
+                                <li>
+                                  - 44台収容可能な機械式パーキングシステム
+                                </li>
+                                <li>- IDD電話</li>
+                                <li>- 衛星テレビ、ケーブルテレビ</li>
+                                <li>- 電話回線：400回線</li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    {/* fdfdf */}
+                    <div>
+                      {/* Button trigger modal */}
+                      <Link href="/myanmar">
+                        <a>
+                          {" "}
+                          <button
+                            type="button"
+                            className="inline-block px-6 py-2 border-2 border-gray-400 text-gray-800 font-light text-md leading-tight hover:text-blue-500 hover:border-blue-400 hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out
+active:bg-white active:shadow-lg transition duration-150 ease-in-out"
+                            data-bs-toggle="modal"
+                            data-bs-target="#exampleModal"
+                          >
+                            調度品
+                          </button>
+                        </a>
+                      </Link>
+
+                      {/* Modal */}
+                      <div
+                        className="modal fade fixed top-0 left-0 hidden w-full h-full outline-none overflow-x-hidden overflow-y-auto"
+                        id="exampleModal"
+                        tabIndex={-1}
+                        aria-labelledby="exampleModalLabel"
+                        aria-hidden="true"
+                      >
+                        <div className="modal-dialog relative w-auto pointer-events-none">
+                          <div className="modal-content border-none shadow-lg relative flex flex-col w-full pointer-events-auto bg-white bg-clip-padding rounded-md outline-none text-current">
+                            <div className="modal-header flex flex-shrink-0 items-center justify-between p-4 border-b border-gray-200 rounded-t-md">
+                              <h5
+                                className="text-xl font-medium leading-normal text-gray-800"
+                                id="exampleModalLabel"
+                              >
+                                {" "}
+                                調度品{" "}
+                              </h5>
+                              <button
+                                type="button"
+                                className="btn-close box-content w-4 h-4 p-1 text-black border-none rounded-none opacity-50 focus:shadow-none focus:outline-none focus:opacity-100 hover:text-black hover:opacity-75 hover:no-underline"
+                                data-bs-dismiss="modal"
+                                aria-label="Close"
+                              />{" "}
+                            </div>
+                            <div className="modal-body relative p-4">
+                              {" "}
+                              Furnishings Modal body text goes here.{" "}
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    {/* fdfdf */}
+                  </div>
                 </div>
               </div>
             </div>
@@ -101,13 +342,13 @@ const myanmar = () => {
 
       <div className="bg-gray-200 w-full p-8">
         <h2 className="flex justify-center m-0 pt-4 font-serif text-3xl text-gray-800 text-center font-semibold">
-          Key Personnels
+          キーパーソン
         </h2>
         <div className="flex justify-center">
           <hr className="border-b border-1 border-rose-300 w-16 mt-4" />
         </div>
       </div>
-{/* 
+      {/* 
       <div>
         <div className="container my-24 px-6 mx-auto">
   
@@ -211,12 +452,6 @@ const myanmar = () => {
 </div>
 
 </div> */}
-
-
-
-
-      
-
     </MainLayout>
   );
 };

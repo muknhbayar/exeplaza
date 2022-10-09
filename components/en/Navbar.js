@@ -17,7 +17,7 @@ export default function Navbar({ fixed }) {
       >
         <div className="container pl-8 mx-auto flex flex-wrap items-center justify-start ml-0">
           <div className="w-full relative flex justify-start lg:w-auto lg:static lg:block">
-            <Link href="/jp">
+            <Link href="/en">
               <a className=" font-bold leading-relaxed inline-block py-2 whitespace-nowrap uppercase text-white">
                 <div>
                   <img
@@ -46,9 +46,9 @@ export default function Navbar({ fixed }) {
           >
             <ul className="flex flex-col lg:flex-row list-none lg:ml-auto justify-start">
               <li className="nav-item">
-                <Link href="/">
+                <Link href="/en">
                   <a className="px-2 py-2 flex items-center text-sm uppercase leading-snug text-white hover:text-sky-300">
-                    <span className="ml-2">ホーム</span>
+                    <span className="ml-2">HOME</span>
                   </a>
                 </Link>
               </li>
@@ -63,7 +63,7 @@ export default function Navbar({ fixed }) {
                       data-bs-toggle="dropdown"
                       aria-expanded="false"
                     >
-                     エクセについて
+                     ABOUT EXE
                       <svg
                         aria-hidden="true"
                         focusable="false"
@@ -85,16 +85,16 @@ export default function Navbar({ fixed }) {
                       aria-labelledby="dropdownMenuButton1tx"
                     >
                       <li>
-                        <Link href="/greetings">
+                        <Link href="/en/greetings">
                           <a className="dropdown-item px-12 text-sm py-2 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100">
-                          社長メッセージ
+                          Message from the CEO
                           </a>
                         </Link>
                       </li>
                       <li>
-                        <Link href="/corporate">
+                        <Link href="/en/corporate">
                           <a className="dropdown-item px-12 text-sm py-2 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100">
-                          会社概要
+                          Corporate Profile
                           </a>
                         </Link>
                       </li>
@@ -106,38 +106,38 @@ export default function Navbar({ fixed }) {
               {/* dropdown */}
 
               <li className="nav-item">
-                <Link href="/overseas">
+                <Link href="/en/overseas">
                   <a className="px-2 py-2 flex items-center text-sm uppercase leading-snug text-white hover:text-sky-300">
                     {/* <i className="fab fa-twitter text-lg leading-lg text-white opacity-75"></i> */}
-                    <span className="ml-2">海外プロジェクト</span>
+                    <span className="ml-2">Overseas Projects</span>
                   </a>
                 </Link>
               </li>
               <li className="nav-item">
-                <Link href="/domestic">
+                <Link href="/en/domestic">
                   <a className="px-2 py-2 flex items-center text-sm uppercase leading-snug text-white hover:text-sky-300">
-                    <span className="ml-2">国内プロジェクト</span>
+                    <span className="ml-2">Domestic Projects</span>
                   </a>
                 </Link>
               </li>
               <li className="nav-item">
-                <Link href="/intership">
+                <Link href="/en/intership">
                   <a className="px-2 py-2 flex items-center text-sm uppercase leading-snug text-white hover:text-sky-300">
-                    <span className="ml-2">インターンシップ</span>
+                    <span className="ml-2">Internship</span>
                   </a>
                 </Link>
               </li>
               <li className="nav-item">
-                <Link href="/recruit">
+                <Link href="/en/recruit">
                   <a className="px-2 py-2 flex items-center text-sm uppercase leading-snug text-white hover:text-sky-300">
-                    <span className="ml-2">リクルート</span>
+                    <span className="ml-2">Recruit</span>
                   </a>
                 </Link>
               </li>
               <li className="nav-item">
-                <Link href="/contact">
+                <Link href="/en/contact">
                   <a className="px-2 py-2 flex items-center text-sm uppercase leading-snug text-white hover:text-sky-300">
-                    <span className="ml-2">お問い合わせ</span>
+                    <span className="ml-2">Contact</span>
                   </a>
                 </Link>
               </li>
@@ -154,7 +154,7 @@ export default function Navbar({ fixed }) {
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                言語
+                Language
                 <svg
                   aria-hidden="true"
                   focusable="false"
