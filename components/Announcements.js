@@ -25,7 +25,7 @@ const Announcements = () => {
               お知らせです！
             </h2>
             <p className="font-light font-sans text-gray-800 max-w-2xl mb-4 md:mr-8 md:pr-8 md:mt-4">
-              ミャンマーを中心に医療、診断保健活動を行っている特定非営利活動法人ジャパンハートを継続的に支援し
+            ミャンマーを中心に医療、診断保健活動を行っている特定非営利活動法人ジャパンハートを継続的に支援しております。ジャパンハートの活動の詳細についてはWEBサイト...
             </p>
           </div>
         </div>
