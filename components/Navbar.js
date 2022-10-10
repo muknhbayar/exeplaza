@@ -17,7 +17,7 @@ export default function Navbar({ fixed }) {
       >
         <div className="container pl-8 mx-auto flex flex-wrap items-center justify-start ml-0">
           <div className="w-full relative flex justify-start lg:w-auto lg:static lg:block">
-            <Link href="/jp">
+            <Link href="/">
               <a className=" font-bold leading-relaxed inline-block py-2 whitespace-nowrap uppercase text-white">
                 <div>
                   <img

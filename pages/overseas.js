@@ -10,7 +10,7 @@ const overseas = () => {
       <div
         className="top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden text-center relative overflow-hidden bg-no-repeat bg-cover"
         style={{
-          backgroundImage: 'url("/assets/img/japan.jpg")',
+          backgroundImage: 'url("/assets/img/overseas.jpg")',
           backgroundColor: "rgba(0, 0, 0, 0)",
           height: 450,
         }}
