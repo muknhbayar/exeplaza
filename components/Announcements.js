@@ -12,19 +12,19 @@ const Announcements = () => {
       </div>
 
       <div className="grid gap-2 grid-cols-1 md:grid-cols-2 max-w-4xl mx-auto">
-        <div className="w-full m-0 p-4 md:w-96">
+        <div className="w-full m-0 p-2 md:w-96">
           <img src="/assets/img/md_1661105093.jpg " loading="lazy" />
         </div>
 
-        <div className="ml-6 pt-16">
-          <div className="md:mt-6">
+        <div className="ml-4 pt-4">
+          <div className="md:mt-4">
             <p className="font-sans text-xs text-gray-600 font-normal">
               August 21, 2022
             </p>
             <h2 className="font-serif text-lg underline text-gray-900 font-semibold mt-2">
               お知らせです！
             </h2>
-            <p className="font-light font-sans text-gray-800 max-w-2xl mb-4 md:mr-8 md:pr-8 md:mt-4">
+            <p className="font-light font-sans text-gray-800 max-w-2xl">
             ミャンマーを中心に医療、診断保健活動を行っている特定非営利活動法人ジャパンハートを継続的に支援しております。ジャパンハートの活動の詳細についてはWEBサイト...
             </p>
           </div>
