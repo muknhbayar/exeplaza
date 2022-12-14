@@ -37,30 +37,10 @@ const mongolia = () => {
                 </div>
                 <div className="w-full mr-8 pb-16 pl-8">
                   <h2 className="font-serif text-3xl text-gray-800 font-bold ">
-                    Education
+                  Educational sector
                   </h2>
-                  <p className="font-light mt-6 font-sans text-gray-800 max-w-xl ">
-                    After supporting Mongolian educational sector, financing
-                    several school buildings with total capacity of 3,500
-                    students, in 2018 we started operating our own private
-                    school in Mongolia. This is “Olonlog EXE” ITschool, the
-                    first kind of school in Mongolia, in which we teach the IT
-                    curriculum from the elementary school stage. Now in “Olonlog
-                    EXE” school there are nearly 500 bright students, from
-                    elementary school grade 1 to high school, who are striving
-                    to become the innovative power of Mongolia in the digital
-                    era. <br />
-                    Since the establishment within this short period of time the
-                    students showed the great attitude towards the learning
-                    where it is proven by the academic achievement. We have
-                    students who received full scholarships from the US, Canada
-                    and Japanese educational institutions. Not only scholarships
-                    after their high school graduation but during their study in
-                    the school, our students are winning medals constantly from
-                    the various national and provincial level IT, Math and
-                    English language competitions. We believe our students can
-                    become the top international level professionals who will
-                    lead not only in Mongolia but globally.
+                  <p className="font-light mt-6 font-sans text-gray-800 max-w-xl text-justify ">
+                  Since 2010, we have financed educational organizations in Mongolia and implemented school building construction projects for a total of 3,500 students. Therefore, as the next step in the educational sector, in 2018, we established and started operating Olonlog EXE IT school, which is the first secondary school in Mongolia where it has IT curriculum from the elementary school. In addition to IT, students are able to study subjects such as mathematics and English to an advanced level. At present, Olonlog EXE school has nearly 500 excellent students from the first grade to high school level who are studying diligently to become Mongolia's representatives in the global digital age. <br /> <br />
                   </p>
                   <Link href="/en/education">
                     <a
@@ -91,15 +71,11 @@ const mongolia = () => {
             </div>
             <div className="w-full mx-8 md:mx-16">
               <h2 className="font-serif text-3xl text-gray-800 font-bold ">
-                Finance Industry
+              Financial sector
               </h2>
               <p className="font-light mt-6 font-sans text-gray-800 max-w-xl ">
-                EXE Corporation is one of the biggest institutional shareholder
-                and board member of BDSec JSC, the biggest brokerage and
-                underwriting firm in Mongolia. Through our local subsidiary
-                Turquoise Finance Non bank financial institution, a financial
-                services company licensed by Mongolian Financial Regulatory
-                Agency, we...
+              EXE Corporation is one of the major institutional investors of the BDSec JSC, Mongolia's largest securities company, and serves as a director on the Board of directors. As the leading securities company in Mongolia, BDSec has acted as the lead underwriter for major securities activities in the Mongolian securities market, such as the issuance of bonds by Erdenes Tavan Tolgoi, the largest mining company in Mongolia, and the IPO of Khan Bank, the largest commercial bank. <br/><br/>
+              
               </p>
               <Link href="/en/finance">
                 <a
