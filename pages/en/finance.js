@@ -20,8 +20,8 @@ const finance = () => {
             <div className="w-full md:mx-16 p-2">
               <h2 className="font-serif text-3xl text-gray-800 font-bold "> Financial sector </h2>
               <p className="font-light mt-6 font-sans text-gray-800 max-w-xl text-justify">
-              EXE Corporation is one of the major institutional investors of the BDSec JSC, Mongolia's largest securities company, and serves as a director on the Board of directors. As the leading securities company in Mongolia, BDSec has acted as the lead underwriter for major securities activities in the Mongolian securities market, such as the issuance of bonds by Erdenes Tavan Tolgoi, the largest mining company in Mongolia, and the IPO of Khan Bank, the largest commercial bank.  <br /> <br />
-              Turquoise Finance, a financial services company, which is EXE Corporation's local subsidiary in Mongolia, is one of the BDSec's main underwriting partners.
+              EXE Corporation is one of the major institutional investors of the BDSec JSC, Mongolia&apos;s largest securities company, and serves as a director on the Board of directors. As the leading securities company in Mongolia, BDSec has acted as the lead underwriter for major securities activities in the Mongolian securities market, such as the issuance of bonds by Erdenes Tavan Tolgoi, the largest mining company in Mongolia, and the IPO of Khan Bank, the largest commercial bank.  <br /> <br />
+              Turquoise Finance, a financial services company, which is EXE Corporation&apos;s local subsidiary in Mongolia, is one of the BDSec&apos;s main underwriting partners.
               Turquoise Finance is licensed by the Financial Services Authority of Mongolia. In addition to financing activities in stocks and bonds on the Mongolian Stock Exchange and over-the-counter trading, Turquoise Finance issues direct loans to local businesses and act as a market maker in the non-bank money market in Mongolia.
 
               </p>

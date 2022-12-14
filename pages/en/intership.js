@@ -17,7 +17,7 @@ const intership = () => {
       <div className="flex flex-col mx-auto max-w-6xl">
 
        <p className="font-sans font-light mt-8 py-4 text-gray-600"><em>
-       &ldquo;People who want to change themselves&rdquo; <br/>&ldquo;People who have their own sense of values, not the same as others&rdquo;</em>
+       People who want to change themselves <br/>People who have their own sense of values, not the same as others</em>
        </p>
         <p className="font-sans font-bold text-gray-600">
         Why don&apos;t you try new things! ?
