@@ -13,11 +13,11 @@ const education = () => {
         </div>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 mx-auto bg-white max-w-6xl py-16">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 mx-auto bg-white max-w-6xl md:py-16">
         <div className="flex justify-center pt-4 col-span-2">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 lg:mx-16">
             <div> <img src="/assets/img/1659508110.jpg" loading="lazy" className="transition duration-300 ease-linear align-middle w-full" /> </div>
-            <div className="w-full mx-16">
+            <div className="w-full mx-8">
               <h2 className="font-serif text-3xl text-gray-800 font-bold "> Educational sector </h2>
               <p className="font-light mt-6 font-sans text-gray-800 max-w-xl text-justify ">
                   Since 2010, we have financed educational organizations in Mongolia and implemented school building construction projects for a total of 3,500 students. Therefore, as the next step in the educational sector, in 2018, we established and started operating Olonlog EXE IT school, which is the first secondary school in Mongolia where it has IT curriculum from the elementary school. In addition to IT, students are able to study subjects such as mathematics and English to an advanced level. At present, Olonlog EXE school has nearly 500 excellent students from the first grade to high school level who are studying diligently to become Mongolia&apos;s representatives in the global digital age. <br /> <br />
