@@ -18,7 +18,7 @@ const Announcements = () => {
           <img src="/assets/img/md_1661105093.jpg " loading="lazy"/>
         </div>
 
-        <div className="ml-6 pt-16">
+        <div className="ml-6 md:pt-16">
           <div className="md:mt-6">
             <p className="font-sans text-xs text-gray-600 font-normal">
               August 21, 2022

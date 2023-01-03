@@ -22,8 +22,8 @@ const bellsarge = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 lg:mx-16">
             <div> <img src="/assets/img/1663423410.jpg" loading="lazy" className="transition duration-300 ease-linear align-middle w-full" /> </div>
             <div className="w-full md:mx-16 pl-4">
-              <h2 className="font-serif text-3xl text-gray-800 font-bold "> Luxury Service Apartment - Bellsarge MEJIRO </h2>
-              <p className="font-light mt-6 font-sans text-gray-800 max-w-xl ">
+              <h2 className="font-serif text-3xl text-gray-800 font-bold mt-8"> Luxury Service Apartment - Bellsarge MEJIRO </h2>
+              <p className="font-light mt-6 font-sans text-gray-800 max-w-xl text-justify mr-8">
               Bellsarge Mejiro is a luxury furnished serviced apartment building where one can start living from the moment one moves in. Bellsarge Mejiro is located in a quiet residential area of Mejiro, and is only a 1 minute walk from Zoshigaya Station of Tokyo Metro Fukutoshin Line, a very convenient line that runs through Shibuya, Meijijingumae (Harajuku), Shinjuku 3-chome, Ikebukuro and other hubs. The area is also well-known for the highly prestigious Gakusyuin University, which is designated as the academic institution for Imperial Family members. Also nearby is the Chinzanso (Four Seasons Hotel), famous for its exquisite Japanese garden and old teahouse. Bellsarge Mejiro is also just 4 minutes walk from Kishibojin station of Toden Arakawa Line and 13 minutes walk from Mejiro Station of JR Line. A convenience store is located on the first floor of Bellsarge Mejiro, making it a very comfortable and efficient base for living.
                </p>
            

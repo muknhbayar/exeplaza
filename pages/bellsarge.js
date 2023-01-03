@@ -43,11 +43,11 @@ const bellsarge = () => {
               />{" "}
             </div>
             <div className="w-full md:mx-16 pl-4">
-              <h2 className="font-serif text-3xl text-gray-800 font-bold ">
+              <h2 className="font-serif text-3xl text-gray-800 font-bold mt-8">
                 {" "}
                 高級家具付き賃貸マンション（ベルサージュ目白）{" "}
               </h2>
-              <p className="font-light mt-6 font-sans text-gray-800 max-w-xl ">
+              <p className="font-light mt-6 font-sans text-gray-800 max-w-xl mr-8 text-justify">
                 ベルサージュ目白は、入居したその日からすぐに生活を始められる高級家具付き賃貸マンションです。東京メトロ副都心線「雑司が谷」駅より徒歩1分、閑静な目白の住宅街の一角にあります。副都心線は、渋谷、明治神宮前（原宿）、新宿3丁目、池袋などを結ぶ人気路線です。
                 周辺には緑豊かで格式高い学習院大学、日本女子大学、広大で美しい日本庭園を擁する椿山荘などがあります。
                 また都電荒川線「鬼子母神駅」からは徒歩4分、おしゃれなレストランやカフェが多数あるJR山手線「目白駅」からは徒歩13分と3駅が徒歩圏内にあります。

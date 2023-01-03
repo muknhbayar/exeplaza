@@ -37,7 +37,7 @@ const myanmar = () => {
               <h2 className="font-serif text-2xl text-gray-800 font-bold ">
                 Sakura Tower Yangon
               </h2>
-              <p className="font-light mt-6 font-sans text-gray-800 max-w-xl ">
+              <p className="font-light mt-6 font-sans text-gray-800 max-w-xl text-justify mr-8">
                 Sakura Tower was completed in 1999 by Japanese architects Nihon
                 Sekkei and Konoike Construction cp Ltd. It stands in the very
                 heart of Yangon&apos;s central business and Government district, and
@@ -74,7 +74,7 @@ const myanmar = () => {
                   <h2 className="font-serif text-2xl text-gray-800 font-bold mt-8 ">
                     Sakura Residence
                   </h2>
-                  <p className="font-light mt-6 font-sans text-gray-800 max-w-xl ">
+                  <p className="font-light mt-6 font-sans text-gray-800 max-w-xl text-justify mr-8">
                     The luxurious Sakura Residence is undoubtedly Yangon&rsquo;s
                     original expatriate community. Located among the private
                     residences and sweeping palms of Inya Road, it is
@@ -99,14 +99,14 @@ const myanmar = () => {
         </div>
       </div>
 
-      <div className="bg-gray-200 w-full p-8">
+      {/* <div className="bg-gray-200 w-full p-8">
         <h2 className="flex justify-center m-0 pt-4 font-serif text-3xl text-gray-800 text-center font-semibold">
           Key Personnels
         </h2>
         <div className="flex justify-center">
           <hr className="border-b border-1 border-rose-300 w-16 mt-4" />
         </div>
-      </div>
+      </div> */}
 {/* 
       <div>
         <div className="container my-24 px-6 mx-auto">

@@ -34,7 +34,7 @@ const mongolia = () => {
               />
             </div>
             <div className="w-full mr-8 pb-16 pl-8">
-              <h2 className="font-serif text-3xl text-gray-800 font-bold ">
+              <h2 className="font-serif text-3xl text-gray-800 font-bold mt-8">
               教育分野
               </h2>
               <p className="font-light mt-6 font-sans text-gray-800 max-w-xl ">
@@ -65,10 +65,10 @@ const mongolia = () => {
               />
             </div>
             <div className="w-full mx-8 md:mx-16">
-              <h2 className="font-serif text-3xl text-gray-800 font-bold ">
+              <h2 className="font-serif text-3xl text-gray-800 font-bold mt-8 ">
               金融業界
               </h2>
-              <p className="font-light mt-6 font-sans text-gray-800 max-w-xl ">
+              <p className="font-light mt-6 font-sans text-gray-800 max-w-xl mr-8">
               株式会社エクセは、モンゴル最大手証券会社であるBDSec JSCの機関投資家大株主の一つであり、役員会に取締役も務めています。今までBDSecがモンゴル最大手の鉱山会社であるErdenes Tavan Tolgoi社の社債発行、最大手商業銀行であるKhan銀行のIPOといったモンゴル証券市場の主な大きな案件の主幹事会社を務めて来ました。その中でエグゼのモンゴル現地法人である金融サービス会社ターコイズ・ファイナンスがBDSecの引受業務の主なパートナーの一つです。<br/><br/>
               ターコイズ・ファイナンスがモンゴル金融庁の金融サービス免許を受けています。モンゴル証券取引所や店頭取引における株式や債券の引受業務など以外に現地の事業法人に直接ローンを発行し、非銀行部門の金融市場のマーケット・メーカーとしての役割も果たしています。
               </p>

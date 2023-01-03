@@ -21,8 +21,8 @@ const Sharedhouse = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 lg:mx-16">
             <div> <img src="/assets/img/1663422100.jpg" loading="lazy" className="transition duration-300 ease-linear align-middle w-full" /> </div>
             <div className="w-full md:mx-16 pl-4">
-              <h2 className="font-serif text-3xl text-gray-800 font-bold "> Shared House </h2>
-              <p className="font-light mt-6 font-sans text-gray-800 max-w-xl ">
+              <h2 className="font-serif text-3xl text-gray-800 font-bold mt-8"> Shared House </h2>
+              <p className="font-light mt-6 font-sans text-gray-800 max-w-xl text-justify mr-8">
               EXE operates shared-houses concentrating on students overseas. Shared-house is consort rental house styled that several residents use one house or condo.
 Residents use individual cabin while living, toilet, kitchen, shower room and HE (partially) are shared. Our shared-houses have become popular among foreigners as a new style of living in Tokyo where living cost is high. EXE is operating its shared-houses in order to provide enjoyable stays in Japan for those came to Japanese universities or language schools.
 Not only foreigners but also Japanese residents who wish for international contacts are welcomed. Our shared-houses are located in Yotsuya and Waseda which are famous as a Student Town. Each of them is located close to stations and is convenient for residents to start their livings quickly.

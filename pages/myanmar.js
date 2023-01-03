@@ -37,7 +37,7 @@ const myanmar = () => {
               <h2 className="font-serif text-2xl text-gray-800 font-bold ">
                 サクラタワー（ヤンゴン）
               </h2>
-              <p className="font-light mt-6 font-sans text-gray-800 max-w-xl ">
+              <p className="font-light mt-6 font-sans text-gray-800 max-w-xl mr-8">
                 サクラタワーは（株）日本設計、（株）鴻池組と、日本企業の手で1999年に完成しました。ヤンゴンのビジネス及び政治のまさに中心地区に位置し、総貸室面積12,425㎡、高さは地上約100mの20階建て耐震設計オフィスビルです。
                 <br />
                 <br />
@@ -191,7 +191,7 @@ active:bg-white active:shadow-lg transition duration-150 ease-in-out"
                   <h2 className="font-serif text-2xl text-gray-800 font-bold mt-8 ">
                     サクラレジデンス（ヤンゴン）
                   </h2>
-                  <p className="font-light mt-6 font-sans text-gray-800 max-w-xl ">
+                  <p className="font-light mt-6 font-sans text-gray-800 max-w-xl mr-8">
                     サクラレジデンスは、1998年にヤンゴンで最初に作られた海外駐在員向けの世界水準のサービスを備えた高級サービスアパートメントであり、1泊からもご利用いただける高級ホテルでもあります。閑静な住宅地やインヤ通りのヤシ並木に程近い場所に位置し、ヤンゴン国際空港やビジネス街からほんの数分という好立地にあります。
                     <br />
                     <br />
