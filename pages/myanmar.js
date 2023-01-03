@@ -33,11 +33,11 @@ const myanmar = () => {
                 className="transition duration-300 ease-linear align-middle w-full"
               />
             </div>
-            <div className="w-full mx-8">
-              <h2 className="font-serif text-2xl text-gray-800 font-bold ">
+            <div className="w-full px-8">
+              <h2 className="font-serif text-2xl text-gray-800 font-bold text-justify">
                 サクラタワー（ヤンゴン）
               </h2>
-              <p className="font-light mt-6 font-sans text-gray-800 max-w-xl mr-8">
+              <p className="font-light mt-6 font-sans text-gray-800 max-w-xl">
                 サクラタワーは（株）日本設計、（株）鴻池組と、日本企業の手で1999年に完成しました。ヤンゴンのビジネス及び政治のまさに中心地区に位置し、総貸室面積12,425㎡、高さは地上約100mの20階建て耐震設計オフィスビルです。
                 <br />
                 <br />

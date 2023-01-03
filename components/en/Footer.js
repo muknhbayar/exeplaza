@@ -75,7 +75,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <a className="to-top-button show px-3 py-2 mb-16 mr-8 border text-[12px] bg-gray-300 rounded-lg duration-300 " href="#">
+      <a className="to-top-button show px-3 py-2 mb-16 pr-8 border text-[12px] bg-gray-300 rounded-lg duration-300 " href="#">
       <i className="fa-sharp fa-solid fa-arrow-up"></i>
 		{/* <FontAwesomeIcon
         icon={faAmbulance}

@@ -17,8 +17,8 @@ const education = () => {
         <div className="flex justify-center pt-4 col-span-2">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 lg:mx-16">
             <div> <img src="/assets/img/1659508110.jpg" loading="lazy" className="transition duration-300 ease-linear align-middle w-full" /> </div>
-            <div className="w-full mx-8">
-              <h2 className="font-serif text-3xl text-gray-800 font-bold "> Educational sector </h2>
+            <div className="w-full px-8">
+              <h2 className="font-serif text-3xl text-gray-800 font-bold mt-8"> Educational sector </h2>
               <p className="font-light mt-6 font-sans text-gray-800 max-w-xl text-justify ">
                   Since 2010, we have financed educational organizations in Mongolia and implemented school building construction projects for a total of 3,500 students. Therefore, as the next step in the educational sector, in 2018, we established and started operating Olonlog EXE IT school, which is the first secondary school in Mongolia where it has IT curriculum from the elementary school. In addition to IT, students are able to study subjects such as mathematics and English to an advanced level. At present, Olonlog EXE school has nearly 500 excellent students from the first grade to high school level who are studying diligently to become Mongolia&apos;s representatives in the global digital age. <br /> <br />
                   Since its establishment, the students motivation to learn has increased in a short period of time, and the results are shown in their grades. After the graduation, there are students who have received full scholarships from universities in countries such as Canada, Japan, and Turkey to study abroad. In addition, all students who study universities in Mongolia, go to the top universities such as the Mongolian National University and the National Institute of Technology of Mongolia. Olonlog EXE school is ranked among the top 15 schools in the 2020 and 2022 Nation wide University Entrance Examinations ranking. In 2019, it also received the Best Educational Organization Award from Forbes Mongolia magazine.<br/> <br />

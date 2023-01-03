@@ -23,7 +23,7 @@ const myanmar = () => {
         </div>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 mx-auto bg-white max-w-6xl py-16">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 mx-auto bg-white max-w-6xl md:py-16">
         <div className="flex justify-center pt-4 col-span-2">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 lg:mx-16">
             <div>
@@ -33,11 +33,11 @@ const myanmar = () => {
                 className="transition duration-300 ease-linear align-middle w-full"
               />
             </div>
-            <div className="w-full mx-8">
+            <div className="w-full px-8">
               <h2 className="font-serif text-2xl text-gray-800 font-bold ">
                 Sakura Tower Yangon
               </h2>
-              <p className="font-light mt-6 font-sans text-gray-800 max-w-xl text-justify mr-8">
+              <p className="font-light mt-6 font-sans text-gray-800 max-w-xl text-justify">
                 Sakura Tower was completed in 1999 by Japanese architects Nihon
                 Sekkei and Konoike Construction cp Ltd. It stands in the very
                 heart of Yangon&apos;s central business and Government district, and
@@ -70,7 +70,7 @@ const myanmar = () => {
                     className="transition duration-300 ease-linear align-middle w-full"
                   />
                 </div>
-                <div className="w-full mr-8 pb-16 pl-8">
+                <div className="w-full px-8 pb-8">
                   <h2 className="font-serif text-2xl text-gray-800 font-bold mt-8 ">
                     Sakura Residence
                   </h2>

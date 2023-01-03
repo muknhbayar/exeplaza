@@ -29,7 +29,7 @@ const Sharedhouse = () => {
         </div>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 mx-auto bg-white max-w-6xl py-16">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 mx-auto bg-white max-w-6xl md:py-16">
         <div className="flex justify-center pt-4 col-span-2">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 lg:mx-16">
             <div>
@@ -40,11 +40,11 @@ const Sharedhouse = () => {
                 className="transition duration-300 ease-linear align-middle w-full"
               />{" "}
             </div>
-            <div className="w-full md:mx-16 pl-4">
+            <div className="w-full md:mx-16 px-8">
               <h2 className="font-serif text-3xl text-gray-800 font-bold mt-8">
                 シェアハウス（四谷・早稲田）
               </h2>
-              <p className="font-light mt-6 font-sans text-gray-800 max-w-xl mr-8 text-justify">
+              <p className="font-light mt-6 font-sans text-gray-800 max-w-xl text-justify">
                 当社では、海外からの留学生を中心としたシェアハウスの運営をしております。シェアハウスとは一軒の家やマンションを数人で使用する共同賃貸スタイルです。
                 <br />
                 居室は個室になりますが、リビング、トイレ、キッチン、シャワー、家電（一部）などは共用となります。物価の高い東京で生活するため新スタイルとして特に外国人の間で定着しており、「外人ハウス」という呼び方でも知られています。

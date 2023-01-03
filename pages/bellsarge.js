@@ -42,7 +42,7 @@ const bellsarge = () => {
                 className="transition duration-300 ease-linear align-middle w-full"
               />{" "}
             </div>
-            <div className="w-full md:mx-16 mx-8">
+            <div className="w-full md:mx-16 px-8">
               <h2 className="font-serif text-3xl text-gray-800 font-bold mt-8">
                 {" "}
                 高級家具付き賃貸マンション（ベルサージュ目白）{" "}

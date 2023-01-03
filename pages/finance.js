@@ -36,7 +36,7 @@ const finance = () => {
                 className="transition duration-300 ease-linear align-middle w-full"
               />{" "}
             </div>
-            <div className="w-full md:mx-16 p-2">
+            <div className="w-full md:mx-16 px-8">
               <h2 className="font-serif text-3xl text-gray-800 font-bold ">
               金融業界
               </h2>
