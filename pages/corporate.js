@@ -66,8 +66,13 @@ const corporate = () => {
                   >
                     <p>〒102-0083 東京都千代田区麹町1-10-5 澤田麹町ビル6階</p>
                     <p>
-                      Tel: (81 3) 3288 2371 / Fax: (81 3) 3288 2471 /
-                      mail@exegroup.co.jp&nbsp;
+                      Tel: (81) 3 3288 2371 /&nbsp;
+                      <a
+                    href="mailto:mail@exegroup.co.jp"
+                    className="hover:text-blue-500"
+                  >
+                    mail@exegroup.co.jp
+                  </a>
                     </p>
                   </td>
                 </tr>
@@ -157,10 +162,9 @@ const corporate = () => {
                     EXE Sakura Residence
                     (ヤンゴン)：ヤンゴン・サクラレジデンスの経営
                     <br />
-                    Sanaa EXE LLC
-                    (ウランバートル)：エクセショッピングプラザの運営
-                    <br />
-                    Olonlog EXE（ウランバートル）：ＩＴスクール&nbsp;
+                  Turquoise Finance (Ulaanbaatar)：Non-Bank Finantial Institution
+                  <br />
+                  Olonlog EXE (Ulaanbaatar)：Olonlog EXE IT School&nbsp;
                   </td>
                 </tr>
                 <tr style={{ height: 196 }}>
@@ -189,8 +193,13 @@ const corporate = () => {
                       <br />
                       Ulaanbaatar 15171 Mongolia
                       <br />
-                      Tel (976) 11 325552 / Fax (976) 11 325552 / E-mail
-                      info@exeplaza.mn
+                      Tel: (976) 99182674 / E-mail: &nbsp; 
+                      <a
+                    href="mailto:tf@exe.mn"
+                    className="hover:text-blue-500"
+                  >
+                    tf@exe.mn
+                  </a>
                     </address>
                   </td>
                 </tr>

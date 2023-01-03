@@ -45,9 +45,9 @@ const finance = () => {
               ターコイズ・ファイナンスがモンゴル金融庁の金融サービス免許を受けています。モンゴル証券取引所や店頭取引における株式や債券の引受業務など以外に現地の事業法人に直接ローンを発行し、非銀行部門の金融市場のマーケット・メーカーとしての役割も果たしています。
               </p>
 
-              <div className="flex space-x-2 justify-start my-4">
+              {/* <div className="flex space-x-2 justify-start my-4">
                 <div>
-                  {/* Button trigger modal */}
+                
                   <Link href="/finance">
                     <a>
                       {" "}
@@ -63,7 +63,7 @@ active:bg-white active:shadow-lg transition duration-150 ease-in-out"
                     </a>
                   </Link>
 
-                  {/* Modal */}
+                 
                   <div
                     className="modal fade fixed top-0 left-0 hidden w-full h-full outline-none overflow-x-hidden overflow-y-auto"
                     id="exampleModal"
@@ -114,9 +114,9 @@ focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue
                   </div>
                 </div>
 
-                {/* fdfdf */}
+               
                 <div>
-                  {/* Button trigger modal */}
+                  
                   <Link href="/finance">
                     <a>
                       {" "}
@@ -132,7 +132,7 @@ active:bg-white active:shadow-lg transition duration-150 ease-in-out"
                     </a>
                   </Link>
 
-                  {/* Modal */}
+                
                   <div
                     className="modal fade fixed top-0 left-0 hidden w-full h-full outline-none overflow-x-hidden overflow-y-auto"
                     id="exampleModal"
@@ -183,8 +183,8 @@ focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue
                   </div>
                 </div>
 
-                {/* fdfdf */}
-              </div>
+                
+              </div> */}
             </div>
           </div>
         </div>

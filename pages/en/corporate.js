@@ -61,8 +61,13 @@ const corporate = () => {
                     Tokyo 102-0083
                   </p>
                   <p>
-                    Tel: (81 3) 3288 2371 / Fax: (81 3) 3288 2471 /
-                    mail@exegroup.co.jp&nbsp;
+                    Tel: (81) 3 3288 2371 / &nbsp;
+                    <a
+                    href="mailto:mail@exegroup.co.jp"
+                    className="hover:text-blue-500"
+                  >
+                    mail@exegroup.co.jp
+                  </a>
                   </p>
                 </td>
               </tr>
@@ -149,11 +154,9 @@ const corporate = () => {
                 >
                   EXE Sakura Tower, EXE Sakura Residence
                   <br />
-                  Sanaa EXE LLC (Ulaanbaatar): EXE Shopping Plaza Management
+                  Turquoise Finance (Ulaanbaatar)：Non-Bank Finantial Institution
                   <br />
-                  Turquoise Finance (Ulaanbaatar)：Non-Bank
-                  <br />
-                  Olonlog EXE (Ulaanbaatar)：IT School&nbsp;
+                  Olonlog EXE (Ulaanbaatar)：Olonlog EXE IT School&nbsp;
                 </td>
               </tr>
               <tr style={{ height: 196 }}>
@@ -178,7 +181,12 @@ const corporate = () => {
                   <address>
                     EXE Plaza, Tumurchnii Street7/1 <br />
                     Chingeltei District, Ulaanbaatar 15171, Mongolia <br />
-                    Tel (976) 11 325552 / Fax (976) 11 325552 / info@exeplaza.mn
+                    Tel: (976) 99182674 / Email: &nbsp; <a
+                    href="mailto:tf@exe.mn"
+                    className="hover:text-blue-500"
+                  >
+                    tf@exe.mn
+                  </a>
                   </address>
                 </td>
               </tr>

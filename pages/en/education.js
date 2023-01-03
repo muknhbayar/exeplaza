@@ -25,9 +25,9 @@ const education = () => {
                   During their study at Olonlog EXE school, many students who have won medals at national competitions in IT, Mathematics and English. In particular, our students won national IT Olympiad&apos;s gold and bronze medals, Ulaanbaatar City IT Olympiad&apos;s gold medals too. In addition, the team of high school students from Olonlog EXE School won the 2020 National Cyber security contest, in which more than 100 teams participated and held among university students and professionals nationwide.<br/> <br />
                   Our students, together with support of the teaching staffs, are striving to become the top level professionals not only in Mongolia but also globally.
                   </p>
-              <div className="flex space-x-2 justify-start my-4">    
+              {/* <div className="flex space-x-2 justify-start my-4">    
                 <div>
-                  {/* Button trigger modal */}
+                 
                   <Link href="/en/education">
                     <a> <button type="button" className="inline-block px-6 py-2 border-2 border-gray-400 text-gray-800 font-light text-md leading-tight hover:text-blue-500 hover:border-blue-400 hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out
 active:bg-white active:shadow-lg transition duration-150 ease-in-out" data-bs-toggle="modal" data-bs-target="#exampleModal">
@@ -36,7 +36,7 @@ active:bg-white active:shadow-lg transition duration-150 ease-in-out" data-bs-to
                     </a>
                   </Link>
 
-                  {/* Modal */}
+                 
                   <div className="modal fade fixed top-0 left-0 hidden w-full h-full outline-none overflow-x-hidden overflow-y-auto"
                     id="exampleModal" tabIndex={-1} aria-labelledby="exampleModalLabel" aria-hidden="true" >
                     <div className="modal-dialog relative w-auto pointer-events-none">
@@ -61,9 +61,9 @@ focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue
                   </div>
                 </div>
 
-             {/* fdfdf */}
+            
              <div>
-                  {/* Button trigger modal */}
+               
                   <Link href="/en/education">
                     <a> <button type="button" className="inline-block px-6 py-2 border-2 border-gray-400 text-gray-800 font-light text-md leading-tight hover:text-blue-500 hover:border-blue-400 hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out
 active:bg-white active:shadow-lg transition duration-150 ease-in-out" data-bs-toggle="modal" data-bs-target="#exampleModal">
@@ -72,7 +72,7 @@ active:bg-white active:shadow-lg transition duration-150 ease-in-out" data-bs-to
                     </a>
                   </Link>
 
-                  {/* Modal */}
+                  
                   <div className="modal fade fixed top-0 left-0 hidden w-full h-full outline-none overflow-x-hidden overflow-y-auto"
                     id="exampleModal" tabIndex={-1} aria-labelledby="exampleModalLabel" aria-hidden="true" >
                     <div className="modal-dialog relative w-auto pointer-events-none">
@@ -97,8 +97,8 @@ focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue
                   </div>
                 </div>
 
-             {/* fdfdf */}
-          </div>
+            
+          </div> */}
              
         </div>
       </div>

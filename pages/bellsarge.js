@@ -55,8 +55,8 @@ const bellsarge = () => {
               </p>
 
               <div className="flex space-x-2 justify-start my-4">
-                <div>
-                  {/* Button trigger modal */}
+                {/* <div>
+                 
                   <Link href="/bellsarge">
                     <a>
                       {" "}
@@ -72,7 +72,7 @@ active:bg-white active:shadow-lg transition duration-150 ease-in-out"
                     </a>
                   </Link>
 
-                  {/* Modal */}
+                
                   <div
                     className="modal fade fixed top-0 left-0 hidden w-full h-full outline-none overflow-x-hidden overflow-y-auto"
                     id="exampleModal"
@@ -99,33 +99,32 @@ active:bg-white active:shadow-lg transition duration-150 ease-in-out"
                         </div>
                         <div className="modal-body relative p-4 font-sans font-light">
                           <ul>
-                            <li>- 24-hour full backup generators</li>
-                            <li>- 24-hour security service with CCTV</li>
-                            <li>- Floor trunking grids for OA system</li>
+                            <li>- 24 時間完全バックアップ発電機</li>
+                            <li>- CCTV付きの24時間セキュリティサービス</li>
+                            <li>- OA システム用のフロア トランキング グリッド</li>
                             <li>
-                              - International standard earthquake resistance
+                              - 国際規格の耐震性
                             </li>
-                            <li>- Sprinkler system for fire fighting</li>
-                            <li>- ADSL Internet access</li>
+                            <li>- 消火用スプリンクラーシステム</li>
+                            <li>- ADSLインターネットアクセス</li>
                             <li>
-                              - 4 high speed passenger elevators produced by
-                              Hitachi and Mitsubishi Denki
+                              - 日立と三菱電機が製造した高速乗用エレベーター4台
                             </li>
-                            <li>- 1 service elevator</li>
-                            <li>- Mechanical parking system</li>
-                            <li>- IDD telephone lines</li>
-                            <li>- Satellite TV</li>
-                            <li>- 400 phone lines</li>
+                            <li>- サービスエレベーター1台</li>
+                            <li>- 機械式駐車システム</li>
+                            <li>- 国際直通電話回線</li>
+                            <li>- 衛星テレビ</li>
+                            <li>- 400回線</li>
                           </ul>
                         </div>
                       </div>
                     </div>
                   </div>
-                </div>
+                </div> */}
 
                 {/* fdfdf */}
-                <div>
-                  {/* Button trigger modal */}
+                {/* <div>
+                
                   <Link href="/bellsarge">
                     <a>
                       {" "}
@@ -141,7 +140,7 @@ active:bg-white active:shadow-lg transition duration-150 ease-in-out"
                     </a>
                   </Link>
 
-                  {/* Modal */}
+                
                   <div
                     className="modal fade fixed top-0 left-0 hidden w-full h-full outline-none overflow-x-hidden overflow-y-auto"
                     id="exampleModal"
@@ -173,13 +172,13 @@ active:bg-white active:shadow-lg transition duration-150 ease-in-out"
                       </div>
                     </div>
                   </div>
-                </div>
+                </div> */}
 
                 {/* fdfdf */}
               </div>
             </div>
             {/* sakura tower address */}
-            <div className="font-sans font-light m-4">
+            {/* <div className="font-sans font-light m-4">
               <p>
                 <strong> Address: </strong> address here <br />
                 <strong> Tel: </strong> (xxx) xxx xxx <br />
@@ -206,7 +205,7 @@ active:bg-white active:shadow-lg transition duration-150 ease-in-out"
                   </Link>
                 </p>
               </div>
-            </div>
+            </div> */}
 
             <div></div>
 

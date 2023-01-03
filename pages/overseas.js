@@ -69,7 +69,7 @@ const overseas = () => {
           <div
             className="text-center relative overflow-hidden bg-no-repeat bg-cover fixed"
             style={{
-              backgroundImage: 'url("/assets/img/1659582198.jpg")',
+              backgroundImage: 'url("/assets/img/md_1661105093.jpg")',
               height: 400,
             }}
           >

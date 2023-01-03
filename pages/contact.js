@@ -30,9 +30,9 @@ const contact = () => {
             <section className="mb-32 text-center text-gray-800">
               <div className="max-w-[700px] mx-auto px-3 lg:px-6">
                 <i className="fab fa-twitter text-lg leading-lg text-white opacity-75"></i>{" "}
-                <h1 className="text-3xl font-bold">(813)32882371</h1>
+                <h1 className="text-3xl font-bold">(81) 3 3288 2371</h1>
                 <p>
-                  <i class="fa-solid fa-heart fa-beat"></i>{" "}
+                  {/* <i class="fa-solid fa-heart fa-beat"></i>{" "} */}
                   <a
                     href="mailto:mail@exegroup.co.jp"
                     className="hover:text-blue-500"
@@ -112,8 +112,8 @@ const contact = () => {
                       defaultValue={""}
                     />
                   </div>
-                  <div className="form-group form-check text-center mb-6">
-                    <input
+                  {/* <div className="form-group form-check text-center mb-6">
+                     <input
                       type="checkbox"
                       className="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white checked:bg-blue-600 checked:border-blue-600 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain mr-2 cursor-pointer"
                       id="exampleCheck87"
@@ -124,8 +124,8 @@ const contact = () => {
                       htmlFor="exampleCheck87"
                     >
                       Send me a copy of this message
-                    </label>
-                  </div>
+                    </label> 
+                  </div> */}
                   <button
                     type="submit"
                     className="

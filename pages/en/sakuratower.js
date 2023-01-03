@@ -70,8 +70,8 @@ active:bg-white active:shadow-lg transition duration-150 ease-in-out" data-bs-to
                 </div>
 
              {/* fdfdf */}
-             <div>
-                  {/* Button trigger modal */}
+             {/* <div>
+                
                   <Link href="/en/sakuratower">
                     <a> <button type="button" className="inline-block px-6 py-2 border-2 border-gray-400 text-gray-800 font-light text-md leading-tight hover:text-blue-500 hover:border-blue-400 hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out
 active:bg-white active:shadow-lg transition duration-150 ease-in-out" data-bs-toggle="modal" data-bs-target="#exampleModal">
@@ -80,7 +80,7 @@ active:bg-white active:shadow-lg transition duration-150 ease-in-out" data-bs-to
                     </a>
                   </Link>
 
-                  {/* Modal */}
+                 
                   <div className="modal fade fixed top-0 left-0 hidden w-full h-full outline-none overflow-x-hidden overflow-y-auto"
                     id="exampleModal" tabIndex={-1} aria-labelledby="exampleModalLabel" aria-hidden="true" >
                     <div className="modal-dialog relative w-auto pointer-events-none">
@@ -94,24 +94,24 @@ active:bg-white active:shadow-lg transition duration-150 ease-in-out" data-bs-to
                       </div>
                     </div>
                   </div>
-                </div>
+                </div> */}
 
-             {/* fdfdf */}             
+                       
           </div>          
         </div>
-        {/* sakura tower address */}
+       
             <div className="font-sans font-light m-4" >          
                 <p><strong> Address: </strong> 339 Bogyoke Aung San Road, Kyauktada Township, Yangon, Myanmar <br/>
                 <strong> Tel: </strong> (95 1) 255 255 <br/>
                 <strong> Fax: </strong> (95 1) 255 258 <br/>
                 <strong> E-mail:</strong><a href="mailto:stowersales@myanmar.com.mm" className="hover:text-blue-500">stowersales@myanmar.com.mm</a>  </p><br/>
                 
-                <div>
+                {/* <div>
                 <p className="font-bold uppercase text-sm"> 
                 <Link href="http://www.sakura-tower-yangon.com/"><a className="hover:text-sky-400" target="_blank">WEB SITE</a></Link>&emsp;&emsp;
                 <Link href="https://www.facebook.com/profile.php?id=100057447250078"><a className="hover:text-sky-400" target="_blank">FACEBOOK</a></Link>
                 </p>                 
-                </div>
+                </div> */}
             </div>   
 
             <div>

@@ -26,9 +26,9 @@ const finance = () => {
 
               </p>
 
-              <div className="flex space-x-2 justify-start my-4">    
+              {/* <div className="flex space-x-2 justify-start my-4">    
                 <div>
-                  {/* Button trigger modal */}
+                 
                   <Link href="/finance">
                     <a> <button type="button" className="inline-block px-6 py-2 border-2 border-gray-400 text-gray-800 font-light text-md leading-tight hover:text-blue-500 hover:border-blue-400 hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out
 active:bg-white active:shadow-lg transition duration-150 ease-in-out" data-bs-toggle="modal" data-bs-target="#exampleModal">
@@ -37,7 +37,7 @@ active:bg-white active:shadow-lg transition duration-150 ease-in-out" data-bs-to
                     </a>
                   </Link>
 
-                  {/* Modal */}
+                 
                   <div className="modal fade fixed top-0 left-0 hidden w-full h-full outline-none overflow-x-hidden overflow-y-auto"
                     id="exampleModal" tabIndex={-1} aria-labelledby="exampleModalLabel" aria-hidden="true" >
                     <div className="modal-dialog relative w-auto pointer-events-none">
@@ -62,9 +62,9 @@ focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue
                   </div>
                 </div>
 
-             {/* fdfdf */}
+          
              <div>
-                  {/* Button trigger modal */}
+                  
                   <Link href="/finance">
                     <a> <button type="button" className="inline-block px-6 py-2 border-2 border-gray-400 text-gray-800 font-light text-md leading-tight hover:text-blue-500 hover:border-blue-400 hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out
 active:bg-white active:shadow-lg transition duration-150 ease-in-out" data-bs-toggle="modal" data-bs-target="#exampleModal">
@@ -73,7 +73,7 @@ active:bg-white active:shadow-lg transition duration-150 ease-in-out" data-bs-to
                     </a>
                   </Link>
 
-                  {/* Modal */}
+                 
                   <div className="modal fade fixed top-0 left-0 hidden w-full h-full outline-none overflow-x-hidden overflow-y-auto"
                     id="exampleModal" tabIndex={-1} aria-labelledby="exampleModalLabel" aria-hidden="true" >
                     <div className="modal-dialog relative w-auto pointer-events-none">
@@ -98,8 +98,8 @@ focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue
                   </div>
                 </div>
 
-             {/* fdfdf */}
-          </div>
+          
+          </div> */}
         </div>
       </div>
       </div>

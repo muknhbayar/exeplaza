@@ -93,7 +93,7 @@ const intership = () => {
                       お電話又はお問い合わせフォームよりご連絡下さい。
                       <br />
                       株式会社エクセ　
-                      <strong>TEL: (03) 3288 2371 / FAX: (03) 3288 2471</strong>
+                      <strong>TEL: (81) 3 3288 2371 / FAX: (81) 3 3288 2471</strong>
                       <br />
                       採用担当 中塚（なかつか）
                     </p>
@@ -305,15 +305,15 @@ const intership = () => {
             <hr />
 
             {/* FAQs */}
-            <div>
+            {/* <div>
               <h1 className="mt-8 font-serif text-3xl text-black font-bold pb-4">
                 FAQs
               </h1>
-            </div>
+            </div> */}
 
             {/* accordion */}
 
-            <div className="accordion bg-gray-500" id="accordionExample">
+            {/* <div className="accordion bg-gray-500" id="accordionExample">
               <div className="accordion-item bg-white border border-gray-200">
                 <h2 className="accordion-header mb-0" id="headingOne">
                   <button
@@ -459,7 +459,7 @@ const intership = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

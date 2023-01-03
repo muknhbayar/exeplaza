@@ -57,8 +57,8 @@ const Sharedhouse = () => {
               </p>
 
               <div className="flex space-x-2 justify-start my-4">
-                <div>
-                  {/* Button trigger modal */}
+                {/* <div>
+                 
                   <Link href="/sharedhouse">
                     <a>
                       {" "}
@@ -74,7 +74,7 @@ active:bg-white active:shadow-lg transition duration-150 ease-in-out"
                     </a>
                   </Link>
 
-                  {/* Modal */}
+                 
                   <div
                     className="modal fade fixed top-0 left-0 hidden w-full h-full outline-none overflow-x-hidden overflow-y-auto"
                     id="exampleModal"
@@ -105,11 +105,11 @@ active:bg-white active:shadow-lg transition duration-150 ease-in-out"
                       </div>
                     </div>
                   </div>
-                </div>
+                </div> */}
 
-                {/* fdfdf */}
-                <div>
-                  {/* Button trigger modal */}
+                
+                {/* <div>
+                  
                   <Link href="/sharedhouse">
                     <a>
                       {" "}
@@ -120,12 +120,12 @@ active:bg-white active:shadow-lg transition duration-150 ease-in-out"
                         data-bs-toggle="modal"
                         data-bs-target="#exampleModal"
                       >
-                        Furnishings
+                        調度品
                       </button>
                     </a>
                   </Link>
 
-                  {/* Modal */}
+                 
                   <div
                     className="modal fade fixed top-0 left-0 hidden w-full h-full outline-none overflow-x-hidden overflow-y-auto"
                     id="exampleModal"
@@ -141,7 +141,7 @@ active:bg-white active:shadow-lg transition duration-150 ease-in-out"
                             id="exampleModalLabel"
                           >
                             {" "}
-                            Furnishings{" "}
+                            調度品
                           </h5>
                           <button
                             type="button"
@@ -152,18 +152,18 @@ active:bg-white active:shadow-lg transition duration-150 ease-in-out"
                         </div>
                         <div className="modal-body relative p-4">
                           {" "}
-                          Furnishings Modal body text goes here.{" "}
+                          調度品 
                         </div>
                       </div>
                     </div>
                   </div>
-                </div>
+                </div> */}
 
-                {/* fdfdf */}
+                
               </div>
             </div>
-            {/* sakura tower address */}
-            <div className="font-sans font-light m-4">
+            {/*  address */}
+            {/* <div className="font-sans font-light m-4">
               <p>
                 <strong> Address: </strong> here shared house address <br />
                 <strong> Tel: </strong> (xxx) xxx xxx <br />
@@ -190,7 +190,7 @@ active:bg-white active:shadow-lg transition duration-150 ease-in-out"
                   </Link>
                 </p>
               </div>
-            </div>
+            </div> */}
 
             <div></div>
 

@@ -123,8 +123,8 @@ active:bg-white active:shadow-lg transition duration-150 ease-in-out"
                 </div>
 
                 {/* fdfdf */}
-                <div>
-                  {/* Button trigger modal */}
+                {/* <div>
+               
                   <Link href="/myanmar">
                     <a>
                       {" "}
@@ -140,7 +140,7 @@ active:bg-white active:shadow-lg transition duration-150 ease-in-out"
                     </a>
                   </Link>
 
-                  {/* Modal */}
+                
                   <div
                     className="modal fade fixed top-0 left-0 hidden w-full h-full outline-none overflow-x-hidden overflow-y-auto"
                     id="exampleModal"
@@ -172,7 +172,7 @@ active:bg-white active:shadow-lg transition duration-150 ease-in-out"
                       </div>
                     </div>
                   </div>
-                </div>
+                </div> */}
 
                 {/* fdfdf */}
               </div>
@@ -280,8 +280,8 @@ active:bg-white active:shadow-lg transition duration-150 ease-in-out"
                     </div>
 
                     {/* fdfdf */}
-                    <div>
-                      {/* Button trigger modal */}
+                    {/* <div>
+                     
                       <Link href="/myanmar">
                         <a>
                           {" "}
@@ -297,7 +297,7 @@ active:bg-white active:shadow-lg transition duration-150 ease-in-out"
                         </a>
                       </Link>
 
-                      {/* Modal */}
+                      
                       <div
                         className="modal fade fixed top-0 left-0 hidden w-full h-full outline-none overflow-x-hidden overflow-y-auto"
                         id="exampleModal"
@@ -329,7 +329,7 @@ active:bg-white active:shadow-lg transition duration-150 ease-in-out"
                           </div>
                         </div>
                       </div>
-                    </div>
+                    </div> */}
 
                     {/* fdfdf */}
                   </div>
@@ -340,14 +340,14 @@ active:bg-white active:shadow-lg transition duration-150 ease-in-out"
         </div>
       </div>
 
-      <div className="bg-gray-200 w-full p-8">
+      {/* <div className="bg-gray-200 w-full p-8">
         <h2 className="flex justify-center m-0 pt-4 font-serif text-3xl text-gray-800 text-center font-semibold">
           キーパーソン
         </h2>
         <div className="flex justify-center">
           <hr className="border-b border-1 border-rose-300 w-16 mt-4" />
         </div>
-      </div>
+      </div> */}
       {/* 
       <div>
         <div className="container my-24 px-6 mx-auto">

@@ -11,15 +11,15 @@ const Footer = () => {
   return (
     <div>
       <div className="sticky active:border-[3px] active:border-r-0 border-cyan-600 active:rounded my-[3px] hover:bg-rose-800 duration-150">
-        <Link href="/career"> 問い合わせ </Link>
+        <Link href="/contact"> 問い合わせ </Link>
       </div>
       <div className="grid gap-2 grid-cols md:grid-cols-3 bg-neutral-800 w-full p-4 md:p-12">
         <div className="max-w-lg pl-4 mt-4 md:p-4 md:ml-4">
           <h2 className="text-white text-md">お問い合わせ</h2>
           <ul className="text-gray-300 font-light pl-4 list-none w-full">
             <li>〒102-0083 東京都千代田区麹町1-10-5 澤田麹町ビル6階</li>
-            <li>(813) 32882371 </li>
-            <li>mail@exegroup.co.jp</li>
+            <li>(81) 3 3288 2371 </li>
+            <li> <a href="mailto:mail@exegroup.co.jp" className="hover:text-blue-500" > mail@exegroup.co.jp </a></li>
           </ul>
         </div>
 

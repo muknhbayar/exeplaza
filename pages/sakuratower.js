@@ -132,8 +132,8 @@ active:bg-white active:shadow-lg transition duration-150 ease-in-out"
                 </div>
 
                 {/* fdfdf */}
-                <div>
-                  {/* Button trigger modal */}
+                {/* <div>
+                  
                   <Link href="/sakuratower">
                     <a>
                       {" "}
@@ -149,7 +149,7 @@ active:bg-white active:shadow-lg transition duration-150 ease-in-out"
                     </a>
                   </Link>
 
-                  {/* Modal */}
+                
                   <div
                     className="modal fade fixed top-0 left-0 hidden w-full h-full outline-none overflow-x-hidden overflow-y-auto"
                     id="exampleModal"
@@ -181,12 +181,12 @@ active:bg-white active:shadow-lg transition duration-150 ease-in-out"
                       </div>
                     </div>
                   </div>
-                </div>
+                </div> */}
 
-                {/* fdfdf */}
+               
               </div>
             </div>
-            {/* sakura tower address */}
+           
             <div className="font-sans font-light m-4">
               <p>
                 <strong> Address: </strong> 339 Bogyoke Aung San Road, Kyauktada
@@ -202,7 +202,7 @@ active:bg-white active:shadow-lg transition duration-150 ease-in-out"
               </p>
               <br />
 
-              <div>
+              {/* <div>
                 <p className="font-bold uppercase text-sm">
                   <Link href="http://www.sakura-tower-yangon.com/">
                     <a className="hover:text-sky-400" target="_blank">
@@ -216,7 +216,7 @@ active:bg-white active:shadow-lg transition duration-150 ease-in-out"
                     </a>
                   </Link>
                 </p>
-              </div>
+              </div> */}
             </div>
 
             <div></div>
