@@ -162,7 +162,7 @@ const corporate = () => {
                     EXE Sakura Residence
                     (ヤンゴン)：ヤンゴン・サクラレジデンスの経営
                     <br />
-                  Turquoise Finance (Ulaanbaatar)：Non-Bank Finantial Institution
+                  Turquoise Finance (Ulaanbaatar)：Non-Bank Financial Institution
                   <br />
                   Olonlog EXE (Ulaanbaatar)：Olonlog EXE IT School&nbsp;
                   </td>

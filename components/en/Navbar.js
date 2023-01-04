@@ -154,7 +154,7 @@ export default function Navbar({ fixed }) {
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                Language
+                LANGUAGE | 言語
                 <svg
                   aria-hidden="true"
                   focusable="false"

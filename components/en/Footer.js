@@ -31,14 +31,14 @@ const Footer = () => {
           <h2 className="text-white text-md ">About EXE</h2>
           <ul className="text-gray-300 font-light pl-6 list-none">
             <li className="nav-item">
-              <Link href="/greetings">
+              <Link href="/en/greetings">
                 <a className="px-2 py-2 flex items-center text-md text-white hover:text-sky-300">
                   <span className="ml-2">Message from the CEO</span>
                 </a>
               </Link>
             </li>
             <li className="nav-item">
-              <Link href="/corporate">
+              <Link href="/en/corporate">
                 <a className="px-2 py-2 flex items-center text-md text-white hover:text-sky-300">
                   <span className="ml-2">Corporate Profile</span>
                 </a>
@@ -51,21 +51,21 @@ const Footer = () => {
           <h2 className="text-white text-md ">Projects</h2>
           <ul className="text-gray-300 font-light pl-6 list-none">
             <li className="nav-item">
-              <Link href="/domestic">
+              <Link href="/en/domestic">
                 <a className="px-2 py-2 flex items-center text-md text-white hover:text-sky-300">
                   <span className="ml-2">Domestic Projects</span>
                 </a>
               </Link>
             </li>
             <li className="nav-item">
-              <Link href="/myanmar">
+              <Link href="/en/myanmar">
                 <a className="px-2 py-2 flex items-center text-md text-white hover:text-sky-300">
                   <span className="ml-2">Myanmar Projects</span>
                 </a>
               </Link>
             </li>
             <li className="nav-item">
-              <Link href="/mongolia">
+              <Link href="/en/mongolia">
                 <a className="px-2 py-2 flex items-center text-md text-white hover:text-sky-300">
                   <span className="ml-2">Mongolia Projects</span>
                 </a>
