@@ -27,7 +27,7 @@ export default function Home() {
     <Projects/>
     <Domesticprojects/>
     <Sharedhouse/>
-    <Announcements/>
+    {/* <Announcements/> */}
     
 
 
